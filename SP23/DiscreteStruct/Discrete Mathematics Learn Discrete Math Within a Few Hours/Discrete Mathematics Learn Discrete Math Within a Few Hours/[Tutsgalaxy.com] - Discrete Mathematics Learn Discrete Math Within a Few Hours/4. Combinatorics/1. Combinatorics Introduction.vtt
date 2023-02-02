@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.480 --> 00:07.770
+Combinatorics is one of the most important part of discrete mathematic combinatorics answer answers
+
+00:07.770 --> 00:12.250
+the question How many possibilities there is.
+
+00:12.360 --> 00:20.100
+So it should not surprise you that combinatorics have usage in many practical parts of our lives.
+
+00:20.310 --> 00:29.990
+For example many people don't know that bad combinatorics is where it connected with security of computers.
+
+00:30.060 --> 00:36.600
+For example when decrypting and encrypting data we use combinatorics.
+
+00:36.600 --> 00:38.410
+So let's get started.
+
+00:38.430 --> 00:44.150
+First thing I want to talk about is the ad rule and what that means.
+
+00:44.360 --> 00:54.180
+Well if we want to compute possibilities of something that have or in it we use this for example if
+
+00:54.180 --> 01:02.470
+I want to know how many possibilities do I have when I want to pick one element from a or b.
+
+01:02.580 --> 01:07.250
+So since I have four elements I have four possibilities.
+
+01:07.500 --> 01:13.920
+And since B have free elements I have additional free possibilities.
+
+01:13.920 --> 01:18.020
+So the solution is for plus free.
+
+01:18.150 --> 01:19.940
+So the result is seven.
+
+01:19.950 --> 01:21.790
+I hope this makes sense.
+
+01:21.810 --> 01:28.830
+Second row is the multiplication rule and that takes place when we need to do that.
+
+01:28.890 --> 01:35.320
+C and this task can be split into Task A and B.
+
+01:35.640 --> 01:39.350
+And if we can do a away.
+
+01:39.840 --> 01:47.130
+And if we can do B and the ways we can do C and times and ways.
+
+01:47.160 --> 01:53.850
+So let me show you an example if I have free t shirts and for trousers.
+
+01:53.850 --> 01:56.770
+How many unique outfits can I have.
+
+01:57.690 --> 02:00.540
+The answer is free times four.
+
+02:00.810 --> 02:01.810
+And that is 12.
+
+02:01.830 --> 02:06.610
+But I want you to also think about why is a 12.
+
+02:06.900 --> 02:12.810
+Well if I take one of these free T-shirts I have four possible trousers.
+
+02:12.990 --> 02:23.430
+So that is floor options then if I take the second T-shirt I have another four options and with 30 shirt
+
+02:23.730 --> 02:25.820
+I have last four options.
+
+02:25.950 --> 02:27.980
+And that gives me 12.
+
+02:28.080 --> 02:29.860
+I hope you understand this.
+
+02:29.880 --> 02:36.080
+So now let's take a look at a more advanced example that combines these concepts.
+
+02:36.120 --> 02:46.410
+So imagine that dummy in restaurant and this restaurant has three main foods seven drinks and two desserts.
+
+02:46.740 --> 02:53.540
+And I won one main food and one drink or dessert but not both.
+
+02:53.580 --> 02:56.080
+How many options do I have.
+
+02:56.430 --> 03:03.330
+Well my dinner can be split it into main food and drink or dessert.
+
+03:03.330 --> 03:08.100
+So I will have three times one drink or dessert.
+
+03:08.400 --> 03:16.040
+And as you can see we have or in this sentence so there should be seven plus two.
+
+03:16.050 --> 03:21.750
+So the result is free time snide and that is just 27.
+
+03:22.080 --> 03:26.710
+I hope this makes sense and that is pretty much it for this lecture.
+
+03:26.850 --> 03:30.020
+If they have any problems feel free to contact me.
+
+03:30.090 --> 03:31.310
+I will see you next time.

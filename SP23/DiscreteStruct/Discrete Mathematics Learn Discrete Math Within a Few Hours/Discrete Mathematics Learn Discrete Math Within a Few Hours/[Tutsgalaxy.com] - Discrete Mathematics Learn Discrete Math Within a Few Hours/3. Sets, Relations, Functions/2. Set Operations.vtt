@@ -1,0 +1,463 @@
+WEBVTT
+
+00:00.990 --> 00:05.470
+In previous lecture we find what is that.
+
+00:05.620 --> 00:10.770
+And in this lecture I will show you what can we do with SATs.
+
+00:10.900 --> 00:15.920
+In other words what operations we can do with sets.
+
+00:16.180 --> 00:25.560
+First operation is called subset and it is similar to smaller than or equal to sign that this one is
+
+00:25.570 --> 00:38.380
+more kind around and a subset of B when B contains every element that is then A and it can also contain
+
+00:38.470 --> 00:41.490
+other elements that are not in play.
+
+00:41.590 --> 00:43.030
+And that is OK.
+
+00:43.030 --> 00:48.650
+Important does that B contains every element from May.
+
+00:48.670 --> 00:51.640
+So here are a few examples.
+
+00:51.640 --> 01:01.000
+First one is correct because one is in set B four is instead B and nine is said B.
+
+01:01.000 --> 01:06.910
+So it is true and it doesn't matter in what order they are.
+
+01:06.910 --> 01:16.900
+Important thing is that B contains every element from a second example is false because in a we have
+
+01:17.000 --> 01:25.330
+a right but in B we do not have it and it is not enough to have some elements.
+
+01:25.480 --> 01:27.710
+There must be every element.
+
+01:28.240 --> 01:33.310
+And also note is this if a is not a subset of B.
+
+01:33.550 --> 01:37.430
+We use this notation to describe this relation.
+
+01:37.830 --> 01:38.530
+OK.
+
+01:38.740 --> 01:44.170
+And the last example the sets are equal as you can see.
+
+01:44.320 --> 01:50.380
+So it is also true that B contains every element from May.
+
+01:50.380 --> 01:55.080
+In other words a subset of B.
+
+01:55.080 --> 02:05.700
+Now I want you to pause the video and think about when a and b are equal and you subset operation to
+
+02:05.700 --> 02:07.960
+describe this relationship.
+
+02:08.370 --> 02:16.750
+OK so we know that in order for a to be the same as B we need to have every element for may be.
+
+02:16.980 --> 02:21.190
+But we also need to have every element from B.
+
+02:21.240 --> 02:22.160
+Right.
+
+02:22.350 --> 02:27.920
+So now it is pretty simple to describe it using subsets operation.
+
+02:27.960 --> 02:28.680
+Right.
+
+02:28.860 --> 02:36.300
+A and B are equal if A is subset of B and B is a subset of J.
+
+02:36.450 --> 02:40.350
+And really if you think about it it makes sense.
+
+02:40.560 --> 02:53.130
+For example if a contains four and six and B contains 0 4 and 6 a subset of B because four and six R&amp;B
+
+02:53.870 --> 02:58.530
+about B in a subset of they because 0 is not in they.
+
+02:58.830 --> 03:02.970
+So a is not equal to be.
+
+03:02.970 --> 03:10.580
+Another important thing is cardinality of said and it is just the number of elements in set.
+
+03:10.710 --> 03:14.750
+We use this notation to describe cardinality.
+
+03:14.830 --> 03:25.390
+So if we have set B containing red blue green and yellow the cardinality of this set B is 4 because
+
+03:25.420 --> 03:27.420
+B contains four elements.
+
+03:27.430 --> 03:28.960
+Very simple right.
+
+03:28.960 --> 03:33.010
+That also sets can have no elements.
+
+03:33.010 --> 03:35.400
+Think of it as empty box.
+
+03:35.530 --> 03:45.680
+These are defined by this GRASSET zero and it just means empty box empty braces set that have no elements
+
+03:46.100 --> 03:50.160
+and cardinality of the set is obviously zero.
+
+03:50.180 --> 03:54.310
+Also some sets have cardinality equal to infin..
+
+03:54.350 --> 03:54.990
+Why.
+
+03:55.190 --> 03:58.930
+Well they have infinite number of elements.
+
+03:59.120 --> 04:08.100
+For example if I take all numbers from one to infinity and put them into one said they said will contain
+
+04:08.120 --> 04:13.900
+1 2 3 4 5 6 6 billions and so on and so on.
+
+04:14.060 --> 04:22.870
+And it will never stop because we are going to infinity and infinity just keeps getting bigger and bigger.
+
+04:22.910 --> 04:25.790
+So it's something like our universe.
+
+04:25.800 --> 04:27.930
+It expands all the time.
+
+04:28.130 --> 04:31.300
+So it is infinite it is bad.
+
+04:31.490 --> 04:34.750
+I will talk more about this in next lectures.
+
+04:34.820 --> 04:38.570
+Let's look at another basic operation.
+
+04:38.570 --> 04:48.310
+First one is union and we use this operation to kind of put together two sets and two on to describe
+
+04:48.320 --> 04:49.100
+Union.
+
+04:49.130 --> 04:51.310
+We use this kind of use side.
+
+04:51.530 --> 05:03.100
+So for example if I do a union of A and B and C will be all elements from A and all elements from B.
+
+05:03.110 --> 05:15.210
+So if A is containing 1 and 2 and B is containing 2 and free union of A and B will be 1 2 FREE.
+
+05:15.320 --> 05:18.060
+Why isn't that 1 2 2 free.
+
+05:18.350 --> 05:21.920
+Well we didn't not write repeating elements right.
+
+05:21.920 --> 05:24.580
+I mentioned this in previous lecture.
+
+05:24.620 --> 05:28.410
+So let's take a look at the next example.
+
+05:28.580 --> 05:34.510
+In this case A is 1 and 2 and B is also 1 and 2.
+
+05:34.790 --> 05:38.850
+So the union will be one and two.
+
+05:39.080 --> 05:47.840
+You can guess the result in this case where a contains 1 to free and B contains 4 and 5.
+
+05:47.870 --> 05:52.970
+The union of A and B will be 1 2 3 4 5.
+
+05:53.000 --> 05:54.770
+I hope that makes sense.
+
+05:54.770 --> 05:59.690
+Let's take a look at basic properties of this operation.
+
+05:59.720 --> 06:04.770
+I believe that if you really think about it you can figure it out.
+
+06:05.180 --> 06:11.130
+So what is the relation between A union B and B Union J.
+
+06:12.050 --> 06:16.640
+Well we have set containing all the elements from a.
+
+06:16.880 --> 06:19.370
+And also all the elements from B.
+
+06:19.700 --> 06:27.150
+And then we have other set containing all the elements from B and then also all the elements from a.
+
+06:27.440 --> 06:33.490
+And you don't have to be a rocket scientist to figure out these two sets are the same right.
+
+06:34.010 --> 06:34.700
+OK.
+
+06:34.790 --> 06:40.450
+Next one might not be so obvious but it also makes sense.
+
+06:40.610 --> 06:49.120
+A united with a B union C is also the same as a union B United.
+
+06:49.130 --> 06:51.920
+With c why.
+
+06:52.160 --> 07:00.080
+Well if you think about it here we are not a with the sad that is containing all the elements from B
+
+07:00.200 --> 07:01.370
+and C.
+
+07:01.880 --> 07:09.630
+And here we are and I said that it's containing all of the elements from a and b with set C..
+
+07:09.830 --> 07:17.910
+So in both example the final set will contain all the elements from a b and c.
+
+07:17.930 --> 07:18.720
+Right.
+
+07:19.130 --> 07:19.800
+OK.
+
+07:20.000 --> 07:25.400
+Another interesting fact is that a union a is equal to A.
+
+07:25.400 --> 07:26.130
+Right.
+
+07:26.450 --> 07:31.870
+Because this set is containing all the elements from a kind of twice.
+
+07:31.890 --> 07:38.870
+But since we don't care about how many times element is set it is the same as a.
+
+07:39.320 --> 07:42.130
+And I think that has enough properties.
+
+07:42.140 --> 07:51.170
+So let's take a look at intersection and what this basically does well it takes only the elements that
+
+07:51.170 --> 07:53.570
+are in both sets.
+
+07:53.570 --> 07:59.350
+We use this kind you upside down to describe this operation.
+
+07:59.540 --> 08:02.700
+And let me show you a few examples.
+
+08:02.900 --> 08:14.990
+If a contains 1 and 2 and B contains 2 and free the intersection of A and B will be set containing 2
+
+08:15.950 --> 08:22.040
+because 2 is the only element that is in a but also in B.
+
+08:22.100 --> 08:30.230
+So you can imagine this as if you have two boxes and you are taking only the elements that are in both
+
+08:30.560 --> 08:32.060
+boxes.
+
+08:32.060 --> 08:41.750
+Here is another example where a contains 1 and 2 and B contains want and to the intersection of A and
+
+08:41.780 --> 08:47.020
+B Wirz out into set containing 1 and 2.
+
+08:47.300 --> 08:49.550
+Because we have 1 in a.
+
+08:49.820 --> 09:03.500
+But also in B and we have two and they but also in B and in the example A contains 1 2 and 3 and B contains
+
+09:03.500 --> 09:15.970
+4 and 5 and the intersection of A and B is empty set because there is no element that is an A and B.
+
+09:15.980 --> 09:17.520
+I hope this makes sense.
+
+09:17.660 --> 09:18.940
+I think it does.
+
+09:18.940 --> 09:24.860
+So let's take a look at some basic properties of this operation.
+
+09:24.860 --> 09:32.450
+First one says that intersection of A and B is the same as intersection of B and they and this makes
+
+09:32.450 --> 09:34.040
+sense right.
+
+09:34.040 --> 09:43.770
+Second one says that a intersected with B intersection C is the same as a intersection B intersected
+
+09:43.790 --> 09:45.140
+with C.
+
+09:45.200 --> 09:51.390
+So if you think about it both of these statements will result in two said.
+
+09:51.620 --> 10:01.810
+And in this set will be only elements that are in a b and c there are more properties but you can figure
+
+10:01.810 --> 10:10.030
+out all of this if you really think about it so the next property says that a intersection a is equal
+
+10:10.030 --> 10:10.760
+to.
+
+10:11.230 --> 10:20.500
+And this one also makes sense because you have the elements that are in both sets and the sets are equal.
+
+10:20.500 --> 10:26.060
+That means the result will be also equal to a last operation.
+
+10:26.070 --> 10:33.960
+I will talk about in this lecture as councilman's this operation kind of represents subtraction with
+
+10:33.960 --> 10:34.830
+sets.
+
+10:34.830 --> 10:36.860
+And what I mean by that.
+
+10:37.050 --> 10:44.400
+Well a complement B is basically a without the elements that are in B.
+
+10:44.400 --> 10:48.920
+This might be confusing but it is actually pretty simple.
+
+10:49.350 --> 10:58.230
+If I have here set a containing 1 and 2 and then I have your set B containing 2 and 3.
+
+10:58.290 --> 11:07.230
+The complement is described by this and turned divide sine and the result is set that contains ments
+
+11:07.290 --> 11:10.670
+from a that are not in B.
+
+11:10.860 --> 11:13.530
+So you can think of it two ways.
+
+11:13.530 --> 11:17.420
+First one is that you are picking every element from a.
+
+11:17.730 --> 11:26.040
+And you are looking whether it is all I meant is also and B if it is you Frodo's alignment way if it
+
+11:26.040 --> 11:26.860
+is not.
+
+11:26.970 --> 11:29.090
+You add it into a result.
+
+11:29.370 --> 11:35.850
+So the result of compliments of a and b is set containing 1.
+
+11:35.880 --> 11:36.540
+Why.
+
+11:36.750 --> 11:39.280
+Well one is not in B.
+
+11:39.420 --> 11:46.140
+So we added to the result then we grab two and find out that two is in B.
+
+11:46.140 --> 11:50.040
+So if we're going away I hope that makes sense.
+
+11:50.190 --> 11:57.810
+And next example a contains 1 and 2 and B contains 1 and 2.
+
+11:58.050 --> 12:02.560
+So the result of complement of a and b is empty set.
+
+12:02.580 --> 12:03.390
+Why.
+
+12:03.450 --> 12:06.800
+Because every element from May is also in B.
+
+12:06.840 --> 12:10.970
+From this you can kind of figure out one property of compliment.
+
+12:11.190 --> 12:17.890
+If A is a subset of B then complement of A and B is empty set.
+
+12:18.120 --> 12:22.680
+And if you think about it a little bit it should make sense.
+
+12:22.690 --> 12:32.110
+Let's take a look at last example where a contains 1 2 and 3 and B contains four and five.
+
+12:32.460 --> 12:36.640
+Then the complement of A and B will be a.
+
+12:36.870 --> 12:41.100
+That means set containing 1 2 and 3.
+
+12:41.100 --> 12:42.140
+Why.
+
+12:42.150 --> 12:47.010
+Because B is not containing any element for A-MEI.
+
+12:47.010 --> 12:51.990
+Now let's take a look at some basic properties of complements.
+
+12:51.990 --> 12:58.480
+First one is that complement of A and B is not the same as complement of B.
+
+12:58.560 --> 13:05.760
+And they the only case where the result of these are the same is when A is equal to B.
+
+13:05.760 --> 13:13.780
+For example try this with a containing 1 2 3 and 4 and B containing 1 and 2.
+
+13:14.180 --> 13:20.420
+Also not a property is that good implemented of day and day is empty set.
+
+13:20.640 --> 13:22.930
+This also makes sense right.
+
+13:23.490 --> 13:25.850
+OK that's all there is to it.
+
+13:25.950 --> 13:30.070
+If you have any questions don't hesitate to contact me.
+
+13:30.090 --> 13:31.430
+I'm here to help.
+
+13:31.530 --> 13:33.610
+And I will see you next time.

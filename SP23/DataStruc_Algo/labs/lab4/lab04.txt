@@ -1,0 +1,101 @@
+ICSI / IECE 213. Data Structures -- Lab 4
+
+Goals
+-----
+- understand recursion as well as the tradeoff between recursion and iteration.
+- implement recursive methods in Java.
+
+
+PLEASE compress the project containing your code into a zip file (in the form of [your first name]_[your last name].zip) and then submit that file on Blackboard (see PART 4 below).
+
+
+PART 1: Importing lab04.zip into Eclipse
+-----------------------------------------
+1. In the "Package", "Project Explorer", or "Navigator" window, choose a project (e.g., "csi213").
+
+2. In the menu bar, choose "File", "Import", "General", and then "Archive File". Next, press the "Next" button.
+
+3. Click the "Browse..." button and then choose the "lab04.zip" file and press the "Open" button.
+
+4. In the "Import" dialog box, press the "Finish" button.
+
+5. Expand the project, the "src" folder, and then the "csi213.lab04" package. If you cannot see this "csi213.lab04" package in the "src" folder, then it means that, for some reason, the java code is imported into a different directory and Eclipse may not compile the needed Java code automatically. In this case, (i) right-click the "src" folder, (ii) choose "New" and then "Package", (iii) create a package named "csi213.lab04" and then (iv) move the imported java files including "UnitTests.java" to the "csi213.lab04" package.
+
+6. In the "csi213.lab04" package, double-click the "UnitTests.java" file.
+
+7. If there are many compile errors in "UnitTests.java", then it means that the Java project is not configured to run JUnit tests. In this case, (i) right-click the Java project, (ii) choose "Properties" and then "Java Build Path", (iii) choose the "Libraries" tab, (iv) in "Jars and class folders on the build path:", choose "Classpath" and then the "Add Library..." button, (v) in the "Add Library" dialog box, choose "JUnit" and then "JUnit5" or "Junit4", and finally (vi) press the "Finish" button and the "Apply and Close" button.
+
+If the Java project is not configured to run JUnit tests, another possible solution is to (i) right-click the error icon one line 3 ("import static org.junit.Assert.*;") in UnitTests.java, (ii) in the popup, choose "Fix project setup...", (iii) in the "Project Setup Fixes" dialog box, choose "Add Unit 4 library to the build path", and (iv) press the "OK" button.
+
+8. You can run the unit tests in "UnitTests.java" by pressing the "Run" button which contains a green circle and a white triangle. These unit tests will fail until you complete the programming tasks explained below.
+
+
+PART 2: Completing Factorial.java
+---------------------------------
+Task 1 (15 points). Complete the "factorial(int n)" method so that it returns the factorial of the given integer "n". Please implement this method using RECURSION as we discussed in class (further information can be found in 06_recursion.pdf posted on Blackboard).
+When you finish this task, the following code in Factorial#main(String[]) will output "0! = 1", "1! = 1", "2! = 2", "3! = 6", and "4! = 24":
+		for (int i = 0; i <= 4; i++)
+			System.out.println(i + "! = " + factorial(i));
+Your code also needs to pass the unit test named "test1()" in "UnitTests.java".
+
+
+Task 2 (15 points). Complete the "factorial_iterative(int n)" method so that it returns the factorial of the given integer "n". Please implement this method using ITERATION as we discussed in class (further information can be found in 06_recursion.pdf posted on Blackboard).
+When you finish this task, the following code in Factorial#main(String[]) will output "0! = 1", "1! = 1", "2! = 2", "3! = 6", and "4! = 24":
+		for (int i = 0; i <= 4; i++)
+			System.out.println(i + "! = " + factorial_iterative(i));
+Your code also needs to pass the unit test named "test2()" in "UnitTests.java".
+
+
+PART 3: Completing Fibonacci.java
+---------------------------------
+Task 3 (15 points). Complete the "fibonacci(int n)" method so that it returns the "n"-th term of the Fibonacci series. Please implement this method using RECURSION as we discussed in class (further information can be found in 06_recursion.pdf).
+When you finish this task, the following code in Fibonacci#main(String[]) will output "fibonacci(0) = 0", "fibonacci(1) = 1", "fibonacci(2) = 1", "fibonacci(3) = 2", "fibonacci(4) = 3", "fibonacci(5) = 5", and "fibonacci(6) = 8":
+		for (int i = 0; i <= 6; i++)
+			System.out.println("fibonacci(" + i + ") = " + fibonacci(i));
+Your code also needs to pass the unit test named "test3()" in "UnitTests.java".
+
+
+Task 4 (15 points). Complete the "fibonacci_iterative(int n)" method so that it returns the "n"-th term of the Fibonacci series. Please implement this method using ITERATION as we discussed in class (further information can be found in 06_recursion.pdf).
+When you finish this task, the following code in Fibonacci#main(String[]) will output "fibonacci(0) = 0", "fibonacci(1) = 1", "fibonacci(2) = 1", "fibonacci(3) = 2", "fibonacci(4) = 3", "fibonacci(5) = 5", and "fibonacci(6) = 8":
+		for (int i = 0; i <= 6; i++)
+			System.out.println("fibonacci(" + i + ") = " + fibonacci_iterative(i));
+Your code also needs to pass the unit test named "test4()" in "UnitTests.java".
+
+
+Task 5 (40 points). One major problem of the "fibonacci(int n)" method implemented above (Task 3) is that, as we discussed in class, it may perform redundant calculations. For example, "fibonacci(5)" calls "fibonacci(4)" and "fibonacci(3)" and "fibonacci(4)" calls "fibonacci(3)" and "fibonacci(2)", and thus "fibonacci(3)" is called twice. For similar reasons, "fibonacci(2)" is called 3 times and "fibonacci(1)" is called 5 times. As mentioned in class, a solution to this problem is dynamic programming which efficiently handles overlapping subproblems by saving and reusing solutions to these subproblems:
+https://www.programiz.com/dsa/dynamic-programming
+
+Using dynamic programming, complete the "fibonacci_dp(int n, int[] solutions)" method so that it returns the "n"-th term of the Fibonacci series. This method needs to save the result of "fibonacci_dp(2)" at "solutions[2]" and "fibonacci_dp(3)" at "solutions[3]", etc. and then reuse these results (without unnecessarily recalculating them) whenever needed. 
+When you finish this task, the following code in Fibonacci#main(String[]) will output "fibonacci(0) = 0", "fibonacci(1) = 1", "fibonacci(2) = 1", "fibonacci(3) = 2", "fibonacci(4) = 3", "fibonacci(5) = 5", and "fibonacci(6) = 8":
+		for (int i = 0; i <= 6; i++)
+			System.out.println("fibonacci(" + i + ") = " + fibonacci_dp(i));
+Furthermore, the following code will show the time actually spent to calculate the 45-th Fibonacci term using recursion, iteration, and dynamic programming, respectively:
+		test(() -> fibonacci(45), "recursive implementation");
+		test(() -> fibonacci_iterative(45), "iterative implementation");
+		test(() -> fibonacci_dp(45, new int[46]), "dynamic programming");
+The output of the above code will look like (the actual times will be a little bit different):
+fibonacci(45) = 1,134,903,170 # recursive implementation (5.515490 seconds)
+fibonacci(45) = 1,134,903,170 # iterative implementation (0.000100 seconds)
+fibonacci(45) = 1,134,903,170 # dynamic programming (0.000113 seconds)
+In the above case, dynamic programming reduces the time cost from 5.515490 seconds (recursive implementation) to 0.000113 seconds.
+
+Your code also needs to pass the unit test named "test5()" in "UnitTests.java".
+
+
+PART 4: Submitting Your Work
+----------------------------
+1. In Eclipse, choose the "src" source folder and then right-click the "csi213.lab04" package.
+
+2. In the popup menu, choose "Export..."
+
+3. In the "Export" dialog box, choose "General" and "Archive File".
+
+4. Make sure all the files in the "csi213.lab04" package are selected. 
+
+5. In the "To archive file" text box, type the name of the zip file (in the form of [your first name]_[your last name].zip). Please remember the folder where the zip file will be saved.
+
+6. Press the "Finish" button.
+
+7. Before uploading the zip file, please check its content by uncompressing it. In particular, it must contain a folder named "src". This "src" folder must contain a folder named "csi213". This "csi213" folder must contain a folder named "lab04".
+
+8. On Blackboard, please upload the zip file mentioned above. Also, download that zip file from Blackboard and make sure all the needed files are correctly included in that zip file.

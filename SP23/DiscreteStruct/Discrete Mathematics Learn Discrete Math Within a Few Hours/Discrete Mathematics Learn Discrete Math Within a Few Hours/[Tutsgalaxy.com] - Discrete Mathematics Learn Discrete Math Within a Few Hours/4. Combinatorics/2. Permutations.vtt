@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.360 --> 00:03.670
+OK let's look at something more interesting.
+
+00:03.720 --> 00:13.150
+Let's look at permutation permutation of an object means how many unique lineups can I get.
+
+00:13.290 --> 00:20.430
+So for example imagine that you have four friends in your support team and you are the captain.
+
+00:20.670 --> 00:27.090
+So now you need to decide in what order your friends will go.
+
+00:27.120 --> 00:29.790
+For example running or something like that.
+
+00:29.820 --> 00:33.620
+So how many possible lines up do you have.
+
+00:33.900 --> 00:42.250
+Well if we try to solve this kind of logically and first round you can choose one of your four friends.
+
+00:42.270 --> 00:43.390
+Right.
+
+00:43.470 --> 00:49.900
+So let's write for then in the second round you are choosing one.
+
+00:50.100 --> 00:56.810
+But only for free remaining friends because one of them ran in the first round.
+
+00:56.850 --> 00:57.400
+Right.
+
+00:58.180 --> 01:00.910
+So let's write free.
+
+01:00.910 --> 01:03.870
+Now you have only two options.
+
+01:03.880 --> 01:04.480
+Why.
+
+01:04.690 --> 01:11.500
+Well one of your friends run in first round and some other friend runs in second round.
+
+01:11.620 --> 01:16.330
+So you can pick only one of the two remaining friends.
+
+01:16.510 --> 01:18.220
+So let's try to.
+
+01:18.400 --> 01:27.040
+And lastly you have one friend remaining so let's write while now I believe you should see that between
+
+01:27.040 --> 01:30.560
+these numbers will be multiplication.
+
+01:30.640 --> 01:31.290
+Why.
+
+01:31.480 --> 01:39.730
+Well if you pick Bupp first then you have three possible options in second round and two in third round
+
+01:40.060 --> 01:41.130
+and so on.
+
+01:41.190 --> 01:45.220
+It is pretty much the same as with T-shirts and trousers.
+
+01:45.340 --> 01:50.690
+But now you are picking people and there are more rounds than two.
+
+01:50.890 --> 01:52.600
+I hope this makes sense.
+
+01:52.600 --> 02:01.360
+So now the result will be four times three times two times Swan And that is twenty four.
+
+02:01.390 --> 02:09.910
+But some of you might stop in here and see that this is actually factorial of four and you are right
+
+02:10.300 --> 02:11.940
+if you are one of those people.
+
+02:11.980 --> 02:13.140
+Good for you.
+
+02:13.140 --> 02:16.460
+But anyway it is factorial of four.
+
+02:16.540 --> 02:21.650
+For those of you who don't know what factorial is it looks like this.
+
+02:21.700 --> 02:30.760
+In general there can be an and factorial is defined by this exclamation mark but what it is in general
+
+02:30.760 --> 02:39.190
+factorial of then is and times and minus one times and minus two and all the way up to 1.
+
+02:39.190 --> 02:49.150
+So for example factory or six will be six times five times four times three times two times one and
+
+02:49.150 --> 02:50.120
+factorial.
+
+02:50.200 --> 02:54.740
+There's also the general result of permutation.
+
+02:54.790 --> 03:02.310
+So if you have permutation Northmen objects the result will be factorial of an.
+
+03:02.590 --> 03:05.870
+But I don't want you to use this formula.
+
+03:05.930 --> 03:13.290
+Why I want you to think about the problem when you use a formula and don't think about the problem.
+
+03:13.330 --> 03:15.220
+It is useless for you.
+
+03:15.220 --> 03:23.220
+But when you think about it and solve it by logical deduction you are kind of working gowd your brain.
+
+03:23.260 --> 03:26.740
+I know this sounds a bit funny but it is true.
+
+03:27.190 --> 03:32.360
+And you can also write it down like I did in the first example.
+
+03:32.680 --> 03:39.000
+So there's no shame in that but don't use this formula just because it works.
+
+03:39.010 --> 03:42.110
+So now let's look at second example.
+
+03:42.310 --> 03:48.180
+You can try to solve this one by yourself and then go back and check with me.
+
+03:48.220 --> 03:50.060
+So it goes like this.
+
+03:50.080 --> 03:57.480
+Imagine that you have a books about computer science and then you have five books about math.
+
+03:57.760 --> 04:00.440
+How many possible lines do you have.
+
+04:00.580 --> 04:05.750
+When he won the said books about computer science on left side of table.
+
+04:05.890 --> 04:13.210
+And these five books about math on the right side of table feel free to pause the video and try to solve
+
+04:13.210 --> 04:13.650
+it.
+
+04:13.750 --> 04:18.250
+And don't worry if he gets stuck I will be here to help you out.
+
+04:18.250 --> 04:22.390
+So let's start by splitting this task into two.
+
+04:22.660 --> 04:31.720
+How well we need to line up all the computer science books and we also need to line up all the math
+
+04:31.720 --> 04:32.740
+books.
+
+04:32.800 --> 04:40.390
+So one task is to align computer science book and second is to align math books.
+
+04:40.390 --> 04:43.310
+Let's start with computer science.
+
+04:43.560 --> 04:47.430
+There are a set of them and we need to line them up.
+
+04:47.470 --> 04:51.760
+So when we are baking first we have eight options right.
+
+04:52.000 --> 04:59.540
+And then when we are picking second one we have only seven options because we already picked one as
+
+04:59.560 --> 05:07.210
+first then we have six options because we already picked first and second and we cannot have one book
+
+05:07.210 --> 05:08.230
+on two places.
+
+05:08.230 --> 05:08.890
+Right.
+
+05:09.280 --> 05:13.590
+And this will go on and on until we get to one.
+
+05:13.780 --> 05:17.800
+So the result is factorial of fate.
+
+05:17.860 --> 05:23.830
+Let's look at the second task where we want to line up five math books.
+
+05:23.830 --> 05:33.460
+So when we pick first we have five choices then we are picking second and we have four books and so
+
+05:33.460 --> 05:34.990
+on until 1.
+
+05:35.230 --> 05:40.690
+So we solve the subtask first one is factorial.
+
+05:40.700 --> 05:44.330
+They and second one is factorials 5.
+
+05:44.330 --> 05:48.970
+Now let's think about what to do with these results.
+
+05:49.090 --> 05:58.510
+And I want to imagine this in the real world if you somehow line up your computer science Vuic you have
+
+05:58.520 --> 06:04.020
+factory authorized options how to line up your math books right.
+
+06:04.770 --> 06:13.360
+And then if you change the lineup of your computer science books you once again have factorials five
+
+06:13.440 --> 06:16.740
+options how to line up math books.
+
+06:16.740 --> 06:25.810
+So now you should figure out that for every line up of your computer science books you have factorial
+
+06:25.860 --> 06:30.450
+of five options how to align your math books.
+
+06:30.450 --> 06:37.650
+You also know that there is a factory all set of possible line ups of your computer science book.
+
+06:37.710 --> 06:44.360
+So the result will be factory of eight times factory or all five.
+
+06:44.670 --> 06:47.560
+And this will be really a big number.
+
+06:47.580 --> 06:50.220
+So yeah I hope this makes sense.
+
+06:50.220 --> 06:53.270
+That is kind of how you compute permutation.
+
+06:53.400 --> 07:00.940
+Remember in permutation you hath and items and you want to know how many line ups there is.
+
+07:01.170 --> 07:02.010
+OK.
+
+07:02.250 --> 07:06.520
+If you have any questions feel free to ask and I will see you next time.

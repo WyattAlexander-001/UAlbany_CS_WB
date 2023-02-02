@@ -1,0 +1,98 @@
+ICSI / IECE 213. Data Structures -- Lab 3
+
+Goals
+-----
+- understand how we can (i) create an array, (ii) find the length of an array, and (iii) read/update members of an array in Java.
+- write Java code than can manipulate arrays in certain ways.
+
+
+PLEASE compress the project containing your code into a zip file (in the form of [your first name]_[your last name].zip) and then submit that file on Blackboard (see PART 4 below).
+
+
+PART 1: Importing lab03.zip into Eclipse
+-----------------------------------------
+1. In the "Package", "Project Explorer", or "Navigator" window, choose a project (e.g., "csi213").
+
+2. In the menu bar, choose "File", "Import", "General", and then "Archive File". Next, press the "Next" button.
+
+3. Click the "Browse..." button and then choose the "lab03.zip" file and press the "Open" button.
+
+4. In the "Import" dialog box, press the "Finish" button.
+
+5. Expand the project, the "src" folder, and then the "csi213.lab03" package. If you cannot see this "csi213.lab03" package in the "src" folder, then it means that, for some reason, the java code is imported into a different directory and  Eclipse may not compile the needed Java code automatically. In this case, (i) right-click the "src" folder, (ii) choose "New" and then "Package", (iii) create a package named "csi213.lab03" and then (iv) move the imported java code including "UnitTests.java" to the "csi213.lab03" package.
+
+6. In the "csi213.lab03" package, double-click the "UnitTests.java" file.
+
+7. If there are many compile errors in "UnitTests.java", then it means that the Java project is not configured to run JUnit tests. In this case, (i) right-click the Java project, (ii) choose "Properties" and then "Java Build Path", (iii) choose the "Libraries" tab, (iv) in "Jars and class folders on the build path:", choose "Classpath" and then the "Add Library..." button, (v) in the "Add Library" dialog box, choose "JUnit" and then "JUnit5" or "Junit4", and finally (vi) press the "Finish" button and the "Apply and Close" button.
+
+If the Java project is not configured to run JUnit tests, another possible solution is to (i) right-click the error icon one line 3 ("import static org.junit.Assert.*;") in UnitTests.java, (ii) in the popup, choose "Fix project setup...", (iii) in the "Project Setup Fixes" dialog box, choose "Add Unit 4 library to the build path", and (iv) press the "OK" button.
+
+8. You can run the unit tests in "UnitTests.java" by pressing the "Run" button which contains a green circle and a white triangle. These unit tests will fail until you complete the programming tasks explained below.
+
+
+PART 2: Completing IntArrays.java
+---------------------------------
+Before working the tasks described below, please look at the following code (in IntArrays#main(String[])) that demonstrates how to (i) construct an array, (ii) find the length of an array, and (iii) access members (i.e., elements) of an array:
+		int[] a = new int[5];
+		for (int i = 0; i < a.length; i++)
+			a[i] = i;
+
+The code above creates an array containing 5 integers, namely 0, 1, 2, 3, and 4. Therefore, the following code outputs "[0, 1, 2, 3, 4]":
+		System.out.println(Arrays.toString(a));
+
+
+Task 1 (60 points). Complete the "fill(int[] a, int val)" method (using a loop) so that it fills the specified array (argument "a") with the specified value (argument "val"). For example, "fill(b, -1)" needs to set all of the members of "b" to -1.
+When you finish this task, the following code in IntArrays#main(String[]) will output "[0, 0, 0, 0]" and then "[-1, -1, -1, -1]":
+		int[] b = new int[4];
+		System.out.println(Arrays.toString(b));
+		fill(b, -1);
+		System.out.println(Arrays.toString(b));
+Your code will also pass the unit test named "test1()" in "UnitTests.java".
+
+
+Task 2 (30 points). Implement the "copyOf(int[] original)" method so that it returns a copy of the specified array (argument "original"). What this method returns must be a new array such that (i) its length is the same as the length of the specified array (argument "original") and (ii) its member at each index is the same as the member at the same index in "original". 
+Consider an array "a" consisting of integers 0, 1, 2, 3, 4.
+Then, the following code must output "[0, 1, 2, 3, 4]" (since "b" is a copy of "a"):
+		b = copyOf(a);
+		System.out.println(Arrays.toString(b));
+Furthermore, consider the following code:
+		fill(b, -1);
+		System.out.println(Arrays.toString(b));
+		System.out.println(Arrays.toString(a));
+Here, "System.out.println(Arrays.toString(b))" must output "[-1, -1, -1, -1, -1]" since all members of "b" are set to -1.
+On the other hand, "System.out.println(Arrays.toString(a))" will output "[0, 1, 2, 3, 4]" since "a" and "b" are different arrays and "a" has not be modified at all.
+When you complete this task, your code will also pass the unit test named "test2()" in "UnitTests.java".
+
+
+Task 3 (10 points). Complete the "subarray(int[] original, int startIndex, int endIndex)" method so that it returns a new array that corresponds to a sub-array of the specified array (argument "original"). This sub-array begins at the specified "beginIndex" and extends to the element at index ("code endIndex" - 1) and thus the length of the sub-array is ("endIndex"-"beginIndex"). For example, consider an array "a" consisting of integers 0, 1, 2, 3, 4.
+"subarray(a, 0, a.length)" must return a sub-array containing the elements at indices 0-4 in "a" (i.e., an array [0, 1, 2, 3, 4]).
+"subarray(a, 1, a.length-1)" must return a sub-array containing the elements at indices 1-3 in "a" (i.e., an array [1, 2, 3]).
+When you finish this task, the following code will output "[0, 1, 2, 3, 4]" (i.e., the elements at indices 0-4 in "a"), "[1, 2, 3, 4]" (i.e., the elements at indices 1-4 in "a"), and "[1, 2, 3]" (i.e., the elements at indices 1-3 in "a"):
+		System.out.println(Arrays.toString(subarray(a, 0, a.length)));
+		System.out.println(Arrays.toString(subarray(a, 1, a.length)));
+		System.out.println(Arrays.toString(subarray(a, 1, a.length - 1)));
+Your code will also pass the unit test named "test3()" in "UnitTests.java".
+
+
+PART 3: Reviewing your code
+---------------------------
+Try to explain (to yourself) how your code works. If time permits, try to draw diagrams or construct a table where columns represent important variables (or expressions) and rows show how the values of the variables (or expressions) change over time. While you do NOT need to submit such explanation, please understand that clearly explaining the CORRECTNESS and EFFICIENCY of your code is a very important skill. While explaining your code, you may also be able to find errors or ways to improve your code.
+
+
+PART 4: Submitting Your Work
+----------------------------
+1. In Eclipse, choose the "src" source folder and then right-click the "csi213.lab03" package.
+
+2. In the popup menu, choose "Export..."
+
+3. In the "Export" dialog box, choose "General" and "Archive File".
+
+4. Make sure all the files in the "csi213.lab03" package are selected. 
+
+5. In the "To archive file" text box, type the name of the zip file (in the form of [your first name]_[your last name].zip). Please remember the folder where the zip file will be saved.
+
+6. Press the "Finish" button.
+
+7. Before uploading the zip file, please check its content by uncompressing it. In particular, it must contain a folder named "src". This "src" folder must contain a folder named "csi213". This "csi213" folder must contain a folder named "lab03".
+
+8. On Blackboard, please upload the zip file mentioned above.

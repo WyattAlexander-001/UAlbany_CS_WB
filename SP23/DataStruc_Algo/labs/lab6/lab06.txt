@@ -1,0 +1,90 @@
+ICSI / IECE 213. Data Structures -- Lab 6
+
+Goals
+-----
+- understand sequential search, and binary search (both recursive and iterative versions).
+- implement sequential search in Java.
+- implement binary search (recursive version) in Java.
+- implement binary search (iterative version) in Java.
+
+
+PLEASE compress the project containing your code into a zip file (in the form of [your first name]_[your last name].zip) and then submit that file on Blackboard (see PART 3 below).
+
+
+PART 1: Importing lab06.zip into Eclipse
+-----------------------------------------
+1. In the "Package", "Project Explorer", or "Navigator" window, choose a project (e.g., "csi213").
+
+2. In the menu bar, choose "File", "Import", "General", and then "Archive File". Next, press the "Next" button.
+
+3. Click the "Browse..." button and then choose the "lab06.zip" file and press the "Open" button.
+
+4. In the "Import" dialog box, press the "Finish" button.
+
+5. Expand the project, the "src" folder, and then the "csi213.lab06" package. If you cannot see this "csi213.lab06" package in the "src" folder, then it means that, for some reason, the java code is imported into a different directory and Eclipse may not compile the needed Java code automatically. In this case, (i) right-click the "src" folder, (ii) choose "New" and then "Package", (iii) create a package named "csi213.lab06" and then (iv) move the imported java files including "UnitTests.java" to the "csi213.lab06" package.
+
+6. In the "csi213.lab06" package, double-click the "UnitTests.java" file.
+
+7. If there are many compile errors in "UnitTests.java", then it means that the Java project is not configured to run JUnit tests. In this case, (i) right-click the Java project, (ii) choose "Properties" and then "Java Build Path", (iii) choose the "Libraries" tab, (iv) in "Jars and class folders on the build path:", choose "Classpath" and then the "Add Library..." button, (v) in the "Add Library" dialog box, choose "JUnit" and then "JUnit5" or "Junit4", and finally (vi) press the "Finish" button and the "Apply and Close" button.
+
+If the Java project is not configured to run JUnit tests, another possible solution is to (i) right-click the error icon one line 3 ("import static org.junit.Assert.*;") in UnitTests.java, (ii) in the popup, choose "Fix project setup...", (iii) in the "Project Setup Fixes" dialog box, choose "Add Unit 4 library to the build path", and (iv) press the "OK" button.
+
+If you still see many compile errors in "UnitTests.java" although you tried the two mentioned above, then check if there is any file named "module-info.java". If so, please remove that file.
+
+8. You can run the unit tests in "UnitTests.java" by pressing the "Run" button which contains a green circle and a white triangle. These unit tests will fail until you complete the programming tasks explained below.
+
+
+PART 2: Completing FloatArrays.java
+---------------------------------
+Task 1 (30 points). Complete the "sequentialSearch(float[] a, float x)" method so that it can find the location of the specified value "x" in the specified array "a" using the sequential search algorithm (this method needs to return -1 if "x" is not contained in "a").
+For a certain time limit that you choose (e.g., 5 minutes), try to implement the "sequentialSearch(float[] a, float x)" method based only on your understanding of the algorithm.
+Please understand that, during each pass, sequential search examines only one element.
+If that element is equal to "x", then it needs to return the location of that element in the array.
+If all of the passes fail to find "x" (i.e., "x" is not in array "a"), then the method needs to return -1.
+Once you finish the method (or after the time limit), compare your implementation with the Java code in the slides.
+You can use the code from the slides (but some slight changes may be needed).
+
+Your code also needs to pass the unit test named "test2()" in "UnitTests.java".
+
+
+Task 3 (30 points). Complete the "binarySearchRecursive(float[] a, int lower, int upper, float x)" method so that it can find the location of the specified value "x" in the specified array "a" in the portion bounded by "lower" and "upper" using the RECURSIVE binary search algorithm (this method needs to return -1 if "x" is not contained in "a").
+For a certain time limit that you choose (e.g., 15 minutes), try to implement the "binarySearchRecursive(float[] a, int lower, int upper, float x)" method based only on your understanding of the algorithm.
+Please understand that, given a portion of the array "a[lower..upper]", binary search compares the element in the middle (i.e., "a[middle]" where "middle = (lower+upper)/2") with "x".
+If "a[middle]" is equal to "x", then the method returns "middle" (i.e., the location of "a[middle]" which is equal to "x").
+If "a[middle]" is smaller than "x" (i.e., "x" is greater than "a[middle]"), then the method must apply itself to "a[middle+1..upper]" and then return the result.
+If "a[middle]" is greater than "x" (i.e., "x" is smaller than "a[middle]"), then the method must apply itself to "a[lower..middle-1]" and then return the result.
+
+Once you finish the method, compare your implementation with the Java code in the slides.
+Your code also needs to pass the unit test named "test3()" in "UnitTests.java".
+
+
+Task 4 (40 points). Complete the "binarySearchIterative(float[] a, float x)" method so that it can find the location of the specified value "x" in the specified array "a" using the ITERATIVE binary search algorithm (this method needs to return -1 if "x" is not contained in "a").
+For a certain time limit that you choose (e.g., 15 minutes), try to implement the "binarySearchIterative(float[] a, float x)" method based only on your understanding of the algorithm.
+Please understand that this method needs to maintain two variables "lower" and "upper" in order to focus on a portion of the array "a[lower..upper]".
+This method needs to compare the element in the middle (i.e., "a[middle]" where "middle = (lower+upper)/2") with "x".
+If "a[middle]" is equal to "x", then the method returns "middle" (i.e., the location of "a[middle]" which is equal to "x").
+If "a[middle]" is smaller than "x" (i.e., "x" is greater than "a[middle]"), then the method needs to set "lower" to "middle+1" to focus only on "a[middle+1..upper]".
+If "a[middle]" is greater than "x" (i.e., "x" is smaller than "a[middle]"), then the method needs to set "upper" to "middle-1" to focus only on "a[lower..middle-1]".
+
+Once you finish the method (or after the time limit), compare your implementation with the Java code in the slides.
+
+Your code also needs to pass the unit test named "test4()" in "UnitTests.java".
+
+
+PART 3: Submitting Your Work
+----------------------------
+1. In Eclipse, choose the "src" source folder and then right-click the "csi213.lab06" package.
+
+2. In the popup menu, choose "Export..."
+
+3. In the "Export" dialog box, choose "General" and "Archive File".
+
+4. Make sure all the files in the "csi213.lab06" package are selected. 
+
+5. In the "To archive file" text box, type the name of the zip file (in the form of [your first name]_[your last name].zip). Please remember the folder where the zip file will be saved.
+
+6. Press the "Finish" button.
+
+7. Before uploading the zip file, please check its content by uncompressing it. In particular, it must contain a folder named "src". This "src" folder must contain a folder named "csi213". This "csi213" folder must contain a folder named "lab06".
+
+8. On Blackboard, please upload the zip file mentioned above. Also, download that zip file from Blackboard and make sure all the needed files are correctly included in that zip file.

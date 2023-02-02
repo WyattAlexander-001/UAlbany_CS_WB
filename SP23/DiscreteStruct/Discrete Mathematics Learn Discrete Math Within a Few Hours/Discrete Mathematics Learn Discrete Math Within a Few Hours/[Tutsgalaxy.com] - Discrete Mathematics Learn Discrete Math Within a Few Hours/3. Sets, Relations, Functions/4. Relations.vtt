@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00.560 --> 00:09.580
+Hi guys and this lecture I will talk about relations over some said relation means that two elements
+
+00:09.700 --> 00:12.450
+are in some relation to each other.
+
+00:12.490 --> 00:18.470
+For example free is in the relation smaller than with five.
+
+00:18.550 --> 00:22.650
+I am in the relation of being son with my dad.
+
+00:22.930 --> 00:31.000
+I hope that makes sense and I think it does because we are in touch with all kinds of relations all
+
+00:31.000 --> 00:32.300
+the time.
+
+00:32.340 --> 00:43.020
+Now let's talk more about relations in mathematic terms relation on set A is some subset of a times.
+
+00:43.510 --> 00:48.400
+So now let's define what a times a means.
+
+00:48.400 --> 00:57.670
+In general we can multiply two different sets so let's say we want to multiply A and B and the result
+
+00:57.930 --> 01:05.550
+is also said that it's containing pairs where the first part is from set A.
+
+01:05.680 --> 01:09.960
+And the second part is from said be like this.
+
+01:10.150 --> 01:22.540
+So for example if a contains A B C and B contains 0 and 1 a times b where is out into set containing
+
+01:22.570 --> 01:32.810
+bears a and zero A and one B and zero B and one see ends zero and C and 1.
+
+01:33.010 --> 01:40.660
+So if you want to calculate something like this you can just pick one element from a and then put him
+
+01:40.660 --> 01:48.080
+together with all the elements from B and then you move to next element and.
+
+01:48.370 --> 01:51.920
+And when you reach the end you are done.
+
+01:51.970 --> 01:59.860
+So to get back to our example let's say that a contains number 1 2 and 2 free.
+
+01:59.890 --> 02:03.020
+So we compute a times a.
+
+02:03.270 --> 02:07.180
+The result of this operation looks like this.
+
+02:07.180 --> 02:16.430
+And now we can create the relation over array and we can do that by picking berries from this set.
+
+02:16.630 --> 02:25.930
+So for example if I have a relation that is defined for example like X minus XY is smaller or equal
+
+02:25.930 --> 02:33.570
+to zero Overbay it will contain beris from set A times a.
+
+02:33.640 --> 02:45.590
+So this relation will contain pairs 1 and 1 1 and 2 1 and 3 because 1 minus 1 is zero.
+
+02:45.730 --> 02:49.470
+And we want the result to be smaller or equal to zero.
+
+02:49.600 --> 02:54.270
+So that is correct 1 and 2 because one might assume is minus one.
+
+02:54.430 --> 02:57.620
+And same with one and free back.
+
+02:57.880 --> 03:06.280
+And this relation will not be two and one because two minus one will give us one and that is bigger
+
+03:06.280 --> 03:15.880
+than zero but there will be pair containing 2 and 2 2 and free and free and free.
+
+03:15.880 --> 03:23.210
+So these are all the pairs from set A that are in relation are.
+
+03:23.380 --> 03:26.800
+Sometimes people write this fact like this.
+
+03:26.800 --> 03:30.250
+So for example two are two.
+
+03:30.340 --> 03:39.270
+That means two is in relation are with two or they write are inside parentheses two and 2.
+
+03:39.370 --> 03:41.510
+That means the same thing.
+
+03:41.510 --> 03:43.200
+Now you might ask.
+
+03:43.480 --> 03:46.030
+And what is it good for.
+
+03:46.030 --> 03:49.750
+Well you probably know how data base looks like that.
+
+03:49.750 --> 03:51.130
+They didn't know that.
+
+03:51.250 --> 03:55.410
+We have something called relational database model.
+
+03:55.570 --> 04:02.190
+And in this model rows in database are elements of some relation.
+
+04:02.230 --> 04:11.210
+So now I showed you example of something called binary relation and this means there are two elements.
+
+04:11.230 --> 04:13.280
+And during this relation.
+
+04:13.570 --> 04:17.860
+So it is a relation between x and y.
+
+04:18.040 --> 04:23.880
+But we can have a relation between and elements where n is some natural number.
+
+04:23.980 --> 04:32.100
+That way we are picking elements from a time say times a times a where a is there and times.
+
+04:32.110 --> 04:42.150
+So for example if this free relation R can look like X is smaller than I and II is greater than z that
+
+04:42.150 --> 04:52.800
+is just one of many examples and this relation will contain 1 2 1 1 3 1 2 free 2.
+
+04:52.800 --> 04:55.010
+I hope you understand it.
+
+04:55.190 --> 05:00.560
+Now let's talk about properties of binary relations.
+
+05:00.660 --> 05:06.170
+So first property is reflexivity and what that means.
+
+05:06.190 --> 05:15.750
+Well if we have a relation overlay this relation is reflexive when every element for May is in the relation
+
+05:15.990 --> 05:18.040
+with itself.
+
+05:18.060 --> 05:27.930
+So if you take a look at our first example it is reflexive because one is in relation with one two is
+
+05:27.940 --> 05:34.320
+in relation with two and three is a new relation with free.
+
+05:34.350 --> 05:35.790
+I hope that makes sense.
+
+05:35.910 --> 05:40.510
+Every element from a MUST be in relation with itself.
+
+05:41.130 --> 05:43.510
+Next property is symmetry.
+
+05:43.740 --> 05:45.900
+And what that means.
+
+05:46.140 --> 05:54.890
+Well in general if x and y is in relation I and X must also be in relation.
+
+05:54.930 --> 06:00.230
+So if we look at our relation it is obviously not symmetric.
+
+06:00.330 --> 06:07.100
+For example 1 and 3 is in relation dot free and Dujuan is not.
+
+06:07.110 --> 06:18.100
+So in order for a relation to be symmetric there must be a kind of opposite pairs next one is antisymmetry.
+
+06:18.300 --> 06:27.810
+And what that means when some mix and is in the relation and I and x is in the relation also then x
+
+06:27.930 --> 06:37.770
+is equal to II and if we look at this relation it is anti-symmetric because the only pairs that are
+
+06:37.770 --> 06:50.740
+symmetric are 1 and 1 2 and 2 and free and free y let's say that x and y is 1 and 1 then we need to
+
+06:50.740 --> 07:00.940
+find in this relation I and X but since I and X are equal we are trying to find one and one and one
+
+07:00.940 --> 07:03.900
+and one is obviously in this relation.
+
+07:03.940 --> 07:12.480
+Similarly with our bears and for all of these pairs it's also true that X is equal to II.
+
+07:12.730 --> 07:17.830
+So that means this relation is anti-symmetric OK.
+
+07:18.000 --> 07:27.230
+Let's look at last Twan transitivity relation is transitive when for every x and y and z from a.
+
+07:27.420 --> 07:39.710
+It's true that if x and y is in relation and I and Z is in the relation then x and z is also in relation.
+
+07:39.720 --> 07:42.980
+So once again let's take a look at our example.
+
+07:43.140 --> 07:44.300
+It is transitive.
+
+07:44.300 --> 07:47.050
+I am sure you're not seeing it right away.
+
+07:47.160 --> 07:48.530
+And that is OK.
+
+07:48.540 --> 07:52.490
+This takes practice like anything bad.
+
+07:52.490 --> 07:58.450
+If I show you example if I pick one and two as a x and die.
+
+07:58.470 --> 08:02.840
+Now I am looking for some bear that starts with two.
+
+08:03.000 --> 08:12.700
+So I can for example pick two and three and then I need to find one and three in this relation since
+
+08:12.720 --> 08:21.130
+one is our X and free is our z and I am able to find one and free in this relation.
+
+08:21.340 --> 08:24.340
+But this must be true for every pair.
+
+08:24.390 --> 08:28.330
+So you can try to check the rest on your own.
+
+08:28.560 --> 08:34.970
+And with that being said if you have any questions just ask and I will see you next time.

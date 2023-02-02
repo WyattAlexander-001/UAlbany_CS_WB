@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Appendix E/BankAccount"/>
+	<classpathentry kind="src" path="Appendix E/Student"/>
+	<classpathentry excluding="vehicles/" kind="src" path="Appendix G"/>
+	<classpathentry kind="src" path="Appendix G/vehicles"/>
+	<classpathentry kind="src" path="Appendix H"/>
+	<classpathentry kind="src" path="Case Studies/Amortization Class"/>
+	<classpathentry kind="src" path="Case Studies/Calculating Sales Commission"/>
+	<classpathentry kind="src" path="Case Studies/FeetInches Class Case Study"/>
+	<classpathentry kind="src" path="Case Studies/Parallel Arrays"/>
+	<classpathentry kind="src" path="Case Studies/PinTester Class"/>
+	<classpathentry kind="src" path="Case Studies/SerialNumber Class"/>
+	<classpathentry kind="src" path="Case Studies/Simple Text Editor"/>
+	<classpathentry kind="src" path="Chapter 01"/>
+	<classpathentry excluding="Comment3/" kind="src" path="Chapter 02"/>
+	<classpathentry kind="src" path="Chapter 02/Comment3"/>
+	<classpathentry kind="src" path="Chapter 03"/>
+	<classpathentry kind="src" path="Chapter 04"/>
+	<classpathentry excluding="ValueReturn with Documentation/|TwoArgs2 with Documentation/" kind="src" path="Chapter 05"/>
+	<classpathentry kind="src" path="Chapter 05/TwoArgs2 with Documentation"/>
+	<classpathentry kind="src" path="Chapter 05/ValueReturn with Documentation"/>
+	<classpathentry excluding="Cho-Han/|Rectangle Class Phase 5/|Rectangle Class Phase 4/|Rectangle Class Phase 3/|Rectangle Class Phase 2/|Rectangle Class Phase 1/" kind="src" path="Chapter 06"/>
+	<classpathentry kind="src" path="Chapter 06/Cho-Han"/>
+	<classpathentry kind="src" path="Chapter 06/Rectangle Class Phase 1"/>
+	<classpathentry kind="src" path="Chapter 06/Rectangle Class Phase 2"/>
+	<classpathentry kind="src" path="Chapter 06/Rectangle Class Phase 3"/>
+	<classpathentry kind="src" path="Chapter 06/Rectangle Class Phase 4"/>
+	<classpathentry kind="src" path="Chapter 06/Rectangle Class Phase 5"/>
+	<classpathentry kind="src" path="Chapter 07"/>
+	<classpathentry excluding="StockPurchase Class/|Stock Class Phase 3/|Stock Class Phase 4/|Stock Class Phase 1/|Stock Class Phase 2/" kind="src" path="Chapter 08"/>
+	<classpathentry kind="src" path="Chapter 08/Stock Class Phase 1"/>
+	<classpathentry kind="src" path="Chapter 08/Stock Class Phase 2"/>
+	<classpathentry kind="src" path="Chapter 08/Stock Class Phase 3"/>
+	<classpathentry kind="src" path="Chapter 08/Stock Class Phase 4"/>
+	<classpathentry kind="src" path="Chapter 08/StockPurchase Class"/>
+	<classpathentry kind="src" path="Chapter 09"/>
+	<classpathentry excluding="Default Methods/" kind="src" path="Chapter 10"/>
+	<classpathentry kind="src" path="Chapter 10/Default Methods"/>
+	<classpathentry kind="src" path="Chapter 11"/>
+	<classpathentry kind="src" path="Chapter 12"/>
+	<classpathentry kind="src" path="Chapter 13"/>
+	<classpathentry kind="src" path="Chapter 14"/>
+	<classpathentry kind="src" path="Chapter 15"/>
+	<classpathentry kind="src" path="Chapter 16"/>
+	<classpathentry excluding="Point Class Version 2/|Point Class Version 1/" kind="src" path="Chapter 17"/>
+	<classpathentry kind="src" path="Chapter 17/Point Class Version 1"/>
+	<classpathentry kind="src" path="Chapter 17/Point Class Version 2"/>
+	<classpathentry kind="src" path="Chapter 18"/>
+	<classpathentry kind="src" path="Chapter 19"/>
+	<classpathentry kind="src" path="Chapter 20"/>
+	<classpathentry kind="src" path="Chapter 21"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 22"/>
+	<classpathentry excluding="KiloConverter Phase 2/|KiloConverter Phase 3/|Brandi&apos;s Bagel House/|KiloConverter Phase 1/" kind="src" path="Online Chapters/Chapter 23"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 23/Brandi&apos;s Bagel House"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 23/KiloConverter Phase 1"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 23/KiloConverter Phase 2"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 23/KiloConverter Phase 3"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 24"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/ArcDemo"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/AudioDemo1"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/AudioDemo2"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/AudioDemo3"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/AWTTempConverter"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/BouncingBall"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/DrawBoxes"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/DrawBoxes2"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/GraphicStringDemo"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/GraphicsWindow"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/LineDemo"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/MouseEvents"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/OvalDemo"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/PolygonDemo"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/RectangleDemo"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/SimpleApplet"/>
+	<classpathentry kind="src" path="Online Chapters/Chapter 25/TempConverter"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,88 @@
+ICSI / IECE 213. Data Structures -- Lab 2
+
+Goals
+-----
+- apply OOP concepts to Java code
+- complete the Person and Student classes 
+
+
+PLEASE compress the project containing your code into a zip file (in the form of [your first name_[your last name].zip) and then submit that file on Blackboard (see PART 5 below).
+
+
+PART 1: Importing lab02.zip into Eclipse
+-----------------------------------------
+1. In the "Package", "Project Explorer", or "Navigator" window, choose a project (e.g., "csi213").
+
+2. In the menu bar, choose "File", "Import", "General", and then "Archive File". Next, press the "Next" button.
+
+3. Click the "Browse..." button and then choose the "lab02.zip" file and press the "Open" button.
+
+4. In the "Import" dialog box, press the "Finish" button.
+
+5. Expand the project, the "src" folder, and then the "csi213.lab02" package.
+
+6. Then, double-click the "UnitTests.java" file.
+
+7. If there are many compile errors, then right-click the error icon one line 3 ("import static org.junit.Assert.*;") in UnitTests.java. Then, in the popup, choose "Fix project setup...". When the "Project Setup Fixes" dialog box appears, choose "Add Unit 4 library to the build path" and then press the "OK" button.
+
+8. You can run the unit tests in "UnitTests.java" by pressing the "Run" button which contains a green circle and a white triangle. These unit tests will fail until you complete Parts 2 and 3 below.
+
+
+PART 2: Completing Person.java
+------------------------------
+Task 1. Complete the constructor "Person(String name)" so that it sets the member variable "name" to the argument "name". Also, add the "public String toString()" method and then implement it (i.e., override the "Object#toString()" method) so that it returns the name of the Person instance on which the method is called.
+When you finish this task,  the following code in Person#main(String[]) will output "Emily":
+		new Person("John"); // construct a Person instance whose name is "John"
+		Person p = new Person("Emily"); // construct a Person instance whose name is "Emily"
+		System.out.println(p); // output the name of the last Person instance (i.e., "Emily")
+Your code will also pass the unit test named "test1()" in "UnitTests.java".
+
+
+PART 3: Completing Student.java
+-------------------------------
+Task 2. Change the "Student" class so that it inherits the member variable "name" from the "Person" class.
+Also, complete the the constructor "Student(String name, int studentID)" so that the "Student" instance being constructed can remember the "name" and "studentID" given to the constructor.
+Finally, you need to add the "public String toString()" method so that it returns a string containing the name and student ID in the form of "[name], [studentID]" (e.g., "Ken, 2345").
+When you finish this task,  the following code in Student#main(String[]) will output "Ken, 2345":
+		new Student("Chloy", 1234); 
+		Student s = new Student("Ken", 2345); 
+		System.out.println(s); // output the name and student ID of the last Student instance (i.e., "Ken, 2345"))
+Your code will also pass the unit test named "test2()" in "UnitTests.java".
+
+
+Task 3. Change Student.java in order for the studentCount() method to return the number of Student instances constructed since the beginning of the Java program.
+When you finish this task, the following code in Student#main(String[]) will output "2:
+		System.out.println(s.studentCount()); // output the number of Student instances constructed so far (i.e., 2)
+Your code will also pass the unit test named "test3()" in "UnitTests.java".
+
+
+PART 4: Reviewing OOP concepts
+-------------------------------
+The Java code discussed above are related to the following OOP (Object-Oriented Programming) concepts:
+- objects
+- classes
+- constructors
+- methods
+- inheritance
+- member variables (fields)
+- static members (member variables and/or methods)
+- method overriding
+Try to explain them (to yourself) in conjunction with the code. You may also get some help from the following:
+https://docs.oracle.com/javase/tutorial/information/glossary.html
+
+
+PART 5: Submitting Your Work
+----------------------------
+1. In Eclipse, choose the "src" source folder and then right-click the "csi213.lab02" package.
+
+2. In the popup menu, choose "Export..."
+
+3. In the "Export" dialog box, choose "General" and "Archive File".
+
+4. Make sure all the files in the lab02 package are selected. 
+
+5. In the "To archive file" text box, type the name of the zip file (in the form of [your first name_[your last name].zip). Please remember the folder where the zip file will be saved.
+
+6. Press the "Finish" button.
+
+7. On Blackboard, please upload the zip file mentioned above.

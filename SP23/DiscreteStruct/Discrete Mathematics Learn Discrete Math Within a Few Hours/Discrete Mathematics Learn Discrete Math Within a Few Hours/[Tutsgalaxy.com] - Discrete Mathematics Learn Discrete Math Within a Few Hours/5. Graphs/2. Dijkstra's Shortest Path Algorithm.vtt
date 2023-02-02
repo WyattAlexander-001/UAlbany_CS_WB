@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.480 --> 00:07.490
+So the problem is that we have a graph and we want to get from no way to know B.
+
+00:07.570 --> 00:15.090
+So Daddy Samarth Agis on our way is the smallest and this is pretty common problem.
+
+00:15.090 --> 00:20.540
+For example Google maps are computing shortest path all the time.
+
+00:20.730 --> 00:23.060
+So how do they do it.
+
+00:23.070 --> 00:32.990
+Well I don't know what algorithm they're using Google for this task but mostly is use Dykstra algorithm.
+
+00:33.030 --> 00:35.330
+So let's see how it works.
+
+00:35.340 --> 00:37.850
+I got here and an oriented graph.
+
+00:37.860 --> 00:47.340
+So think of it as a road network and I want to get from May to G so that the rotes value is smallest.
+
+00:47.340 --> 00:54.410
+So if you think about it you can just try out all the options but that would be really inefficient.
+
+00:54.840 --> 01:02.820
+Imagine that you have to you road network of all United States and if you want to try all the possible
+
+01:02.820 --> 01:06.540
+paths you will wait for the result forever.
+
+01:06.600 --> 01:16.380
+So what dexterous algorithm does is it takes also a kind of brute force approach but it does that more
+
+01:16.380 --> 01:22.020
+smartly because it goes through the first throats first.
+
+01:22.020 --> 01:26.230
+So let me show you how it actually works.
+
+01:26.250 --> 01:35.550
+We are starting in May and we also have a priority Crea of nodes where we keep track of how much time
+
+01:35.550 --> 01:44.940
+it takes to get to particular node and at the beginning all nodes have infinity because we haven't got
+
+01:44.940 --> 01:47.520
+to any of those nodes yet.
+
+01:47.520 --> 01:49.710
+And what Dextre does.
+
+01:49.980 --> 01:57.600
+Well it takes a look at where we can get from current node and then change the value of bat to that
+
+01:57.600 --> 02:01.840
+particular node and put these notes back to priority.
+
+02:02.190 --> 02:06.180
+And I forgot to mention this and the prior degree.
+
+02:06.180 --> 02:11.070
+All the notes are sorted based on how much time it takes to get there.
+
+02:11.070 --> 02:15.130
+So let me show you how it works on an example.
+
+02:15.180 --> 02:18.060
+I think you will understand it better Dahr.
+
+02:18.060 --> 02:27.100
+Here is my graph and here is my prior degree and I'm going to take the first note from Priority County
+
+02:27.480 --> 02:30.060
+and check where I can go.
+
+02:30.090 --> 02:38.800
+So in this case I take a and see that I can go to B and it takes me 5.
+
+02:39.120 --> 02:43.350
+So I will change value of b in prior order.
+
+02:43.680 --> 02:51.350
+And also said the note from which I got here and that is a I can also go to see.
+
+02:51.450 --> 02:53.250
+And it takes me 2.
+
+02:53.280 --> 03:00.240
+So I will change the value of c from infinity to 2 and I will also move.
+
+03:00.240 --> 03:07.180
+See above B in priority kwi because this priority quie is sorted.
+
+03:07.350 --> 03:15.630
+This is actually an important step because then we are always taking first note from Priority Quy and
+
+03:15.630 --> 03:20.040
+that is why we are looking at faster path first bad.
+
+03:20.070 --> 03:28.240
+Anyway I also said the node from which I got to see today and look at last note and that is the.
+
+03:28.290 --> 03:32.900
+So the value of 7 and I got here from J.
+
+03:33.180 --> 03:37.460
+So now I have gone through every patch from J.
+
+03:37.650 --> 03:48.210
+So I can delete a from Priority query and grab the first note and priority Quy and do this all over
+
+03:48.360 --> 03:49.050
+again.
+
+03:49.230 --> 03:52.220
+So from C I can go back to.
+
+03:52.380 --> 03:57.410
+But since that is where I got to see it is useless to go in there again.
+
+03:57.420 --> 03:58.580
+Right.
+
+03:58.740 --> 04:03.860
+So I will skip a from C. I can also get to D.
+
+04:03.990 --> 04:06.370
+And does that have value of 2.
+
+04:06.540 --> 04:10.910
+So I take a look at how much time it takes to get to the end now.
+
+04:11.040 --> 04:19.860
+And if the value is bigger than the sum of bath from start to Quraan note and the edge from corrent
+
+04:19.860 --> 04:23.280
+know to d i change the value.
+
+04:23.280 --> 04:31.170
+So in this case I had up to because it takes me two to get from a to c and then I add two because it
+
+04:31.170 --> 04:40.030
+takes me two to get from C to D and that gives me four and grinned shortest path to D is 7.
+
+04:40.080 --> 04:49.680
+So I will change the value to 4 and I will also change the node from which I got here to see and I also
+
+04:49.680 --> 04:55.710
+need to get the OP in priority kwi because it has a smaller value then B.
+
+04:55.740 --> 04:56.450
+Right.
+
+04:56.730 --> 05:02.420
+So now I look at outer edges from see so I can get to me.
+
+05:02.650 --> 05:05.050
+And it takes me two plus seven.
+
+05:05.200 --> 05:14.050
+So I change the value of to 9 and I got here from C and these are all the edges that leads from CS So
+
+05:14.050 --> 05:18.450
+C is done and I can delete it from Priority Queeg.
+
+05:18.730 --> 05:24.870
+Now I grab the first priority query and see where I can get from the.
+
+05:25.120 --> 05:29.700
+And I can go only to F and that takes me 4.
+
+05:29.770 --> 05:40.590
+So I will add up the value of the with 4 and set it as a new value of f because it is smaller than infinity.
+
+05:40.690 --> 05:44.990
+And I also said the node from which I got here to D.
+
+05:45.310 --> 05:54.200
+I delete the first priority Quy and I grab B from Priority 3 and see where I can get from B.
+
+05:54.280 --> 06:04.110
+I can get from B to C and it takes me only two so I add up the value of B with 2 and get 7.
+
+06:04.150 --> 06:09.550
+And I can see that we have that here of 9 so I change it to 7.
+
+06:09.820 --> 06:14.580
+And I also changed the note from which I got here to be.
+
+06:14.680 --> 06:19.260
+Now I delete no B from Priority Quy and grab.
+
+06:19.330 --> 06:25.380
+Note E and I can get from me to F and it takes me free.
+
+06:25.420 --> 06:32.840
+So I check whether d add up that you so value of E plus free is smaller than the current value.
+
+06:33.020 --> 06:34.540
+And it is not.
+
+06:34.590 --> 06:38.750
+So I leave it and move on to next Adj.
+
+06:39.010 --> 06:44.950
+And that takes me from B to G and it takes me also free.
+
+06:44.950 --> 06:50.610
+So the path to G takes me seven plus free and that is then.
+
+06:50.650 --> 06:53.800
+So I change the value of G to 10.
+
+06:54.070 --> 06:59.750
+And I also said the node from which I got here to be bad.
+
+06:59.800 --> 07:07.930
+Even though I reached the finish I still need to check all the notes above g in priority.
+
+07:08.230 --> 07:14.120
+So I delete e from Priority Quy and move on to af.
+
+07:14.140 --> 07:16.080
+Why do I have to do this.
+
+07:16.300 --> 07:20.350
+Well imagine that there is that from an to G.
+
+07:20.470 --> 07:22.550
+And it takes only one.
+
+07:22.870 --> 07:26.350
+Then the shortest path would be different.
+
+07:26.350 --> 07:27.420
+Right.
+
+07:27.490 --> 07:33.220
+So I need to check all the notes in front of G and try our decree.
+
+07:33.250 --> 07:37.660
+So from math I can get to edge in four.
+
+07:37.690 --> 07:44.510
+So I changed the value of h to 12 and I said the note from which I got here to.
+
+07:44.890 --> 07:46.970
+And I can also get to G.
+
+07:47.140 --> 07:57.710
+And it takes me free so I change the value of G to 11 and set the node 2 and remove that from priority.
+
+07:58.000 --> 08:03.060
+And as you can see now G is first priority.
+
+08:03.100 --> 08:07.040
+So that means I found the shortest path.
+
+08:07.060 --> 08:19.390
+So now I can reconstruct this path by looking at the notes that I wisit so I get to G from E I get to
+
+08:19.480 --> 08:26.830
+e from B and I get to be from May and that is the shortest path.
+
+08:26.830 --> 08:34.270
+I hope this makes sense and I think it should because it is still pretty much brute force algorithm.
+
+08:34.270 --> 08:40.520
+It doesn't go through the barfs in proper direction so that's Razo algorithm.
+
+08:40.570 --> 08:46.290
+It's kind of Decore but since it is still pretty inefficient.
+
+08:46.510 --> 08:53.790
+Most of the used algorithms have some improvements like they search routes in some direction.
+
+08:53.950 --> 08:57.720
+But anyway that is pretty much it for this lecture.
+
+08:57.790 --> 09:00.960
+If you have any questions feel free to contact me.
+
+09:01.090 --> 09:04.460
+I will be here to help and I will see you next time.

@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.180 --> 00:01.770
+So what is graph.
+
+00:01.950 --> 00:10.200
+Yeah I guess this is graph that I meant in this green mathematics graph is something that is made up
+
+00:10.200 --> 00:20.640
+from Agis and notes mostly you can see this notation where node is represented by a circle and inside
+
+00:20.640 --> 00:25.350
+that circle can be some ID for example one or a.
+
+00:25.680 --> 00:28.150
+And then there are agist.
+
+00:28.260 --> 00:34.160
+And these are just lines connecting exactly two nodes like this.
+
+00:34.290 --> 00:38.080
+So for example this cannot happen.
+
+00:38.160 --> 00:40.330
+You cannot connect freen nodes.
+
+00:40.400 --> 00:41.760
+Why a one match.
+
+00:41.970 --> 00:43.670
+And this also cannot happen.
+
+00:43.670 --> 00:47.910
+You can just when from one note to nowhere.
+
+00:47.910 --> 00:52.540
+Also etch can be oriented or honor oriented.
+
+00:52.710 --> 00:54.080
+And what that means.
+
+00:54.270 --> 01:00.950
+Well for example this is oriented at connecting notes say and B.
+
+01:00.990 --> 01:10.560
+And since this Agis oriented you can get from May to be but also from B to say but on the other hand
+
+01:10.560 --> 01:14.280
+when I have oriented graph it can look like this.
+
+01:14.520 --> 01:21.570
+And notice that there is not just a line connecting a and b but there is a narrow.
+
+01:21.690 --> 01:29.750
+So in this graph you can get from May to be bad you cannot get from B to AA.
+
+01:29.880 --> 01:34.360
+So let's take a look at more interesting example.
+
+01:34.440 --> 01:38.140
+This graph is oriented and it contains.
+
+01:38.170 --> 01:40.640
+Note A B C D.
+
+01:41.130 --> 01:47.310
+And the first thing you may notice is that there is no act leading to.
+
+01:47.640 --> 01:49.230
+And that is all right.
+
+01:49.360 --> 01:51.700
+There is nothing wrong with that.
+
+01:51.750 --> 01:58.850
+Imagine that this graph represents a real world network and he is an island.
+
+01:58.860 --> 02:06.630
+Another thing you may notice is that there are more Agis and think in C and that is also OK.
+
+02:06.750 --> 02:10.800
+There can be more rotes ending in one city right.
+
+02:10.860 --> 02:18.400
+So now I want you to pause the video and find the path from A to D.
+
+02:18.450 --> 02:26.250
+So since there is not direct damage from A to D there is Zetsche from the 2A but we cannot use that
+
+02:26.310 --> 02:28.670
+because it is graphics oriented.
+
+02:28.950 --> 02:35.950
+So we have to go from A to C and then we have to go from C to D.
+
+02:35.970 --> 02:40.000
+So the path from May to the looks like this.
+
+02:40.020 --> 02:47.660
+Now if I change this graph to an oriented graph you can just use this at from A to Z.
+
+02:47.730 --> 02:51.000
+So that is pretty much how graph works.
+
+02:51.000 --> 02:54.880
+Now let's take a look at more mathematic definition.
+
+02:55.050 --> 02:56.640
+Graph is defined as.
+
+02:56.640 --> 02:57.840
+To sum.
+
+02:58.020 --> 03:05.260
+First we have a set of nodes and then we have saddo vacuous we means Verd to cease.
+
+03:05.310 --> 03:07.610
+But I like no more.
+
+03:07.770 --> 03:12.060
+So I am using node bad where just the CNO is the same thing.
+
+03:12.360 --> 03:15.000
+And this we sat cannot be empty.
+
+03:15.000 --> 03:19.580
+So there has to be at least one note than this.
+
+03:19.590 --> 03:24.670
+He means Agis and it is a subset of we.
+
+03:24.680 --> 03:25.970
+SIMES we.
+
+03:26.250 --> 03:35.720
+And that makes sense is basically a relation over we because two notes either are in relation.
+
+03:35.940 --> 03:40.040
+In other words they are connected or they are not.
+
+03:40.110 --> 03:42.960
+So they are not in relation.
+
+03:42.960 --> 03:49.830
+And when the graph is Sun oriented It doesn't matter in what order the notes and Edge are.
+
+03:49.830 --> 03:54.650
+If there is say and the it is the same as if there were BNA.
+
+03:54.870 --> 04:03.640
+But when a graph is oriented the order matters so and B is different that then B anyway.
+
+04:03.750 --> 04:05.530
+I think this is pretty clear.
+
+04:05.730 --> 04:11.070
+Let's take a look at more real world application of graphs.
+
+04:11.070 --> 04:16.730
+Imagine that this honor oriented graph represents a road network.
+
+04:16.830 --> 04:25.800
+But this time we have numbers next to Agis and this value can represent for example the length or how
+
+04:25.800 --> 04:27.390
+much time it took.
+
+04:27.390 --> 04:36.900
+So for example if I want to get from A to B I can go there directly and get a result value of 10 or
+
+04:37.200 --> 04:42.200
+I can go through the and get the result value of 6.
+
+04:42.210 --> 04:48.350
+So then the problem is how to decide what path you should take.
+
+04:48.600 --> 04:52.500
+And that is a topic for following lecture.
+
+04:52.510 --> 04:55.080
+So yeah it does somethings up.
+
+04:55.080 --> 05:05.530
+Graphs are made up from notes and edges atch is connect exactly two notes graph can be oriented or oriented
+
+05:06.100 --> 05:12.910
+and also edges can have values and that is pretty much it for this lecture.
+
+05:12.910 --> 05:17.320
+If you have any questions feel free to ask and I will see you next time.

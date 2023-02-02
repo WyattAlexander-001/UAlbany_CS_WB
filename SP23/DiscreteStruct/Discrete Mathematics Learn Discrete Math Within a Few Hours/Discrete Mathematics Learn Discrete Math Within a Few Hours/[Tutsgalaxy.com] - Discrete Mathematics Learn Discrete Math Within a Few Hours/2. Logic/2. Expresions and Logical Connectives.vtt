@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.720 --> 00:09.060
+Let's start with expressions more precisely logical expressions so logical expression is just something
+
+00:09.330 --> 00:11.580
+that can be true or false.
+
+00:11.580 --> 00:15.600
+So for example 5 is smaller than free.
+
+00:15.810 --> 00:23.120
+You can obviously see that it is complete nonsense but it is still a logical statement that is false
+
+00:23.130 --> 00:26.730
+right and that her expression could be for example.
+
+00:26.760 --> 00:33.100
+My father is 50 years old because it can either be true or false.
+
+00:33.150 --> 00:36.210
+There is nothing between no third option.
+
+00:36.210 --> 00:36.900
+Right.
+
+00:37.020 --> 00:47.090
+And since we care about the form and not content we will call all statements by letters from A to Z.
+
+00:47.190 --> 00:54.960
+And since then our natural language we are talking using these statements and connectives.
+
+00:55.050 --> 01:04.370
+So in order for us to be able to transfer a sentence into logic a formula we need a logical connectives.
+
+01:04.560 --> 01:08.440
+And thankfully there is only five of them.
+
+01:08.490 --> 01:12.270
+So the first one is negation.
+
+01:12.450 --> 01:13.640
+It looks like this.
+
+01:13.680 --> 01:23.460
+And it represents not in our spoken word logic a formula that looks like this negation of A where A
+
+01:23.460 --> 01:31.230
+represents Stakman that since instead of a we can put any statement remember we care about the form
+
+01:31.860 --> 01:37.860
+not about content bad we know that it can either be true or false.
+
+01:38.010 --> 01:44.140
+And since we are lazy we represent true by one and false by zero.
+
+01:44.340 --> 01:56.460
+So if A is true negation of true is false and if A is zero negation of false is true.
+
+01:56.910 --> 01:59.720
+So that means 1.
+
+01:59.730 --> 02:05.400
+So one negation does it kind of flips the logical value in simple words.
+
+02:05.400 --> 02:16.110
+OK the next one is or and if you think about it when you talk you use or all the time and logical formula
+
+02:16.200 --> 02:17.990
+it looks like we.
+
+02:18.030 --> 02:22.010
+So A or B looks like this.
+
+02:22.010 --> 02:25.290
+If A and B is zero.
+
+02:25.500 --> 02:34.440
+This logical formula will result in two thoughts that if A is false and B is true this formula will
+
+02:34.440 --> 02:35.660
+result in two.
+
+02:35.650 --> 02:40.490
+True if A is true and B is false we get true.
+
+02:40.620 --> 02:44.260
+And if A is true and B is true we get true.
+
+02:44.640 --> 02:50.340
+So Or is true if at least one of its operand is true.
+
+02:50.760 --> 02:57.870
+And if you think about it it kind of makes sense and it corresponds with or in our natural language
+
+02:58.410 --> 03:03.540
+and since we have or we also have an and looks like this.
+
+03:03.660 --> 03:07.220
+So it is kind of a without the line in middle.
+
+03:07.410 --> 03:10.350
+So A and B looks like this.
+
+03:10.410 --> 03:19.260
+And when A is false and B is false A and B will result in two thoughts.
+
+03:19.260 --> 03:24.300
+When A is false and B is true we get falls again.
+
+03:24.300 --> 03:28.020
+When A is true and B is false.
+
+03:28.020 --> 03:35.030
+We get still false that when A is true and B is true we get true.
+
+03:35.310 --> 03:42.600
+So in order for and to be true we need a and b to be both true.
+
+03:42.600 --> 03:47.990
+You can think of it as multiplication one times one gives you one.
+
+03:48.400 --> 03:50.680
+OK let's look at another one.
+
+03:50.940 --> 03:54.960
+The next one is pretty simple and kind of straightforward.
+
+03:55.140 --> 04:00.840
+It is equivalence sometimes known as logical biconditional.
+
+04:01.170 --> 04:05.190
+And it is true if operands have same value.
+
+04:05.190 --> 04:12.060
+So if they and B is false we get true because they are equal.
+
+04:12.150 --> 04:15.900
+If A and B is true we get true.
+
+04:15.990 --> 04:17.800
+Otherwise we get false.
+
+04:18.030 --> 04:22.630
+So you can think about it as an equal sign.
+
+04:22.650 --> 04:24.390
+Zero is equal to zero.
+
+04:24.390 --> 04:26.410
+But zero is not equal to 1.
+
+04:26.430 --> 04:27.800
+Right.
+
+04:27.960 --> 04:35.020
+The last one is implication and I kind of show you implication in previous lecture.
+
+04:35.020 --> 04:39.120
+But I want to talk more about its purpose in this one.
+
+04:39.240 --> 04:42.990
+So it looks like this as you already know.
+
+04:43.110 --> 04:49.740
+And if a is false then no matter what B is we get true.
+
+04:49.980 --> 04:56.110
+But if a is true and B is false we get false.
+
+04:56.340 --> 05:07.030
+And if a is true and B is also true we get true so this one is not consistent and you might thing that
+
+05:07.030 --> 05:08.140
+is kind of weird.
+
+05:08.230 --> 05:15.970
+And I think the best way for you to understand implication is through this sentence if it's raining
+
+05:16.090 --> 05:17.490
+than it's cloudy.
+
+05:17.620 --> 05:25.510
+So a is raining and B it's cloudy and let's go through all the logical values.
+
+05:25.630 --> 05:26.730
+They can have.
+
+05:26.980 --> 05:32.290
+So first one is that a is false and B is also false.
+
+05:32.380 --> 05:36.940
+So if it's not raining then it's not cloudy.
+
+05:37.060 --> 05:38.840
+And that is OK.
+
+05:38.860 --> 05:40.050
+That makes sense right.
+
+05:40.210 --> 05:41.970
+And it is true.
+
+05:42.400 --> 05:50.440
+Next one says that if it's not raining then it's cloudy and that also makes sense right.
+
+05:50.450 --> 05:55.850
+You can have clouds without rain but now it gets interesting.
+
+05:56.110 --> 06:02.830
+If it is raining then it is not cloudy and this doesn't make sense right.
+
+06:02.960 --> 06:06.760
+Because in order to rain you need clouds.
+
+06:06.760 --> 06:08.850
+So this is false.
+
+06:09.430 --> 06:15.710
+And last one says if it is raining it is cloudy and doesn't make sense so it is true.
+
+06:16.070 --> 06:16.620
+OK.
+
+06:16.650 --> 06:19.500
+That is pretty much it for this lecture.
+
+06:19.500 --> 06:22.990
+We'll play more with these in next lectures.
+
+06:23.200 --> 06:28.490
+So if you have any questions feel free to ask and I will see you next time.

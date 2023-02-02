@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.390 --> 00:08.820
+Logical formula it's something that is made up from statements that means from others say Z and from
+
+00:08.830 --> 00:10.280
+logical connects.
+
+00:10.500 --> 00:10.990
+Yeah.
+
+00:11.070 --> 00:13.070
+And also prentices.
+
+00:13.140 --> 00:19.670
+So for example logical formula can look like this negation ne implies B.
+
+00:19.680 --> 00:25.510
+It's equivalent with A or B and every formula is either tautology.
+
+00:25.710 --> 00:34.020
+That means no matter what logical value A and B have for every logical value the formula will result
+
+00:34.110 --> 00:43.560
+in to true or former can be satisfiable and formalized satisfiable if it is true under at least one
+
+00:43.650 --> 00:46.910
+interpretation of A and B.
+
+00:46.980 --> 00:49.650
+And last one is a contradiction.
+
+00:49.980 --> 00:56.290
+And that means formalize false no matter what logic a value A and B have.
+
+00:56.550 --> 01:02.130
+So how do you find out what kind of formula we have here.
+
+01:02.180 --> 01:03.870
+We all use table.
+
+01:03.990 --> 01:12.060
+So the arguments are A and B and we will consider every possible scenario.
+
+01:12.060 --> 01:18.290
+Now let's look at our formula and you can kind of split it into smaller parts.
+
+01:18.330 --> 01:18.950
+Right.
+
+01:19.230 --> 01:24.660
+Compute these smaller parts and then put the result together.
+
+01:24.720 --> 01:33.670
+So on the right side we have a or b and on their side we have negation they implies B.
+
+01:33.720 --> 01:37.500
+So let's compute leftside first.
+
+01:37.980 --> 01:48.110
+I recommend compute negation a first and then compute implication of negation A and B.
+
+01:48.180 --> 01:53.320
+So let's do this as you already know negation flips that.
+
+01:53.520 --> 01:59.210
+So where A is zero negation of A will be won.
+
+01:59.400 --> 02:03.340
+And where is one negation of they will be zero.
+
+02:04.140 --> 02:05.480
+Like this.
+
+02:05.520 --> 02:11.260
+So now let's compute implication of negation A and B.
+
+02:11.760 --> 02:22.890
+And we know that implication results into false only a first operand is true and second one is false.
+
+02:22.890 --> 02:30.600
+So if we look at our table we can see that this line will be false right.
+
+02:30.810 --> 02:39.740
+Because negation of AA is true and B is false by all the other lines will be true.
+
+02:40.140 --> 02:44.300
+So we have compute our left side.
+
+02:44.310 --> 02:47.370
+Now let's compute the right side.
+
+02:47.370 --> 02:48.980
+This one is easier.
+
+02:48.990 --> 02:49.920
+We just do.
+
+02:50.220 --> 02:52.380
+Or over a and b.
+
+02:52.560 --> 02:58.270
+So Or is false when both operands are false.
+
+02:58.440 --> 03:01.530
+And that happens only in the first row.
+
+03:02.270 --> 03:04.740
+All the other rows will be true.
+
+03:04.940 --> 03:06.250
+So now.
+
+03:06.300 --> 03:11.110
+So now let's put the left side and right side together.
+
+03:11.480 --> 03:14.050
+We have equivalence between them.
+
+03:14.120 --> 03:23.480
+So that means that you of leftside is same as right side we get true otherwise false.
+
+03:23.600 --> 03:32.870
+That if you look at this table you can see that negation ne implies B is the same as say or B.
+
+03:32.870 --> 03:36.560
+So this formula will be true no matter what.
+
+03:36.560 --> 03:38.450
+A and B are.
+
+03:38.750 --> 03:42.770
+So this formula is a tautology.
+
+03:42.770 --> 03:49.100
+Now I want you to try this on your own with these two formulas.
+
+03:49.100 --> 03:53.920
+The first one has only negation in front of or.
+
+03:54.110 --> 04:01.220
+So that means you do negation of the result of this or operation.
+
+04:01.220 --> 04:04.670
+And this formula should be contradiction.
+
+04:04.700 --> 04:11.790
+That means falles everywhere and the second one looks like this.
+
+04:11.800 --> 04:17.930
+So instead of or is send and this one should be satisfied.
+
+04:18.280 --> 04:21.510
+And it should be 1 0 0 1.
+
+04:21.520 --> 04:23.510
+So try this on your own.
+
+04:23.530 --> 04:30.430
+And if you get stuck just posed the question now from this first example.
+
+04:30.460 --> 04:33.670
+You might notice that it tells us something.
+
+04:33.730 --> 04:40.710
+This formula is tautology and that means left side is equal to right side.
+
+04:41.080 --> 04:47.680
+And that means we can use negation and implication instead of our.
+
+04:47.720 --> 04:57.020
+And now I'm going to tell you a secret we can use negation and implication instead of and two and instead
+
+04:57.020 --> 04:58.840
+of Lachlan's two.
+
+04:58.850 --> 05:09.650
+So in order for us to write any formula we need only negation and implication as you saw in the first
+
+05:09.650 --> 05:10.600
+example.
+
+05:10.640 --> 05:15.800
+Negation A implies B is equivalent to A or B.
+
+05:17.010 --> 05:23.440
+Negation ave implies negation of B is equivalent to A and B.
+
+05:23.990 --> 05:27.470
+And equivalence is a bit complicated.
+
+05:27.540 --> 05:38.670
+It is negation of they implies B that implies negation of B implies they and that is the same as if
+
+05:38.670 --> 05:41.910
+you write A is equivalent to B.
+
+05:42.150 --> 05:46.280
+You can't try to prove it like I did in the first example.
+
+05:46.320 --> 05:48.870
+It should always be tautology.
+
+05:49.290 --> 05:49.790
+OK.
+
+05:49.860 --> 05:52.750
+That is pretty much it for this lecture.
+
+05:53.160 --> 05:56.320
+If you have any questions feel free to ask.
+
+05:56.340 --> 06:01.860
+I suggest you play with these and if you get stuck feel free to post the question.
+
+06:01.860 --> 06:05.380
+I will be there to help you and I will see you next time.

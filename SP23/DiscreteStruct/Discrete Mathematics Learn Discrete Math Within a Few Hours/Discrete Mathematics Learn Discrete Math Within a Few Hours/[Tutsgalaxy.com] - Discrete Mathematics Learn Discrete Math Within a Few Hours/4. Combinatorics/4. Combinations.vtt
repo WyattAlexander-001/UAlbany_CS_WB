@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.360 --> 00:08.700
+Combinations are pretty much the same as permutations or variations but in combinations we don't care
+
+00:08.790 --> 00:14.230
+about the order in peregrinations we cared about the order of events.
+
+00:14.490 --> 00:23.020
+So to make things absolutely clear permutation A and B is different than permutation B.
+
+00:23.190 --> 00:30.900
+And they that combination A and B is the same a combination of B and day.
+
+00:30.900 --> 00:34.050
+So let me show you an example.
+
+00:34.050 --> 00:44.400
+Imagine that I have set A that is containing numbers 1 2 and 3 and I want all subsets that have two
+
+00:44.610 --> 00:46.090
+elements.
+
+00:46.110 --> 00:47.570
+This is pretty simple.
+
+00:47.580 --> 00:54.120
+It is actually one and two and two and three and then one and three.
+
+00:54.180 --> 01:01.890
+But now I want to demonstrate the difference between combinations and permutation and permutation.
+
+01:01.950 --> 01:11.100
+It would be A and B and C than B and day b and c and then CNA and cn b.
+
+01:11.340 --> 01:19.140
+And since the formula for combinations is not so easy to come up with I will show you the formula right
+
+01:19.140 --> 01:19.660
+now.
+
+01:19.860 --> 01:21.800
+So that is it.
+
+01:21.820 --> 01:26.310
+Now I will at least tell you what that means.
+
+01:26.310 --> 01:36.900
+So since we are picking our elements from an we can compute this and factory are divided by and minus
+
+01:36.960 --> 01:38.310
+our factory.
+
+01:38.550 --> 01:39.200
+Why.
+
+01:39.420 --> 01:43.440
+Well that is basically K permutation over n right.
+
+01:43.470 --> 01:45.330
+It is the same formula.
+
+01:45.330 --> 01:54.990
+But this time we also need to get rid of all the cases where the only difference is in-order and we
+
+01:54.990 --> 02:03.870
+will do that by multiplying the down part or fraction with our factorial and actually let me show you
+
+02:03.870 --> 02:06.150
+that it works on these examples.
+
+02:06.360 --> 02:12.290
+So the number of false subsets that have two elements is free.
+
+02:12.300 --> 02:12.960
+Right.
+
+02:13.060 --> 02:15.720
+Let's see what this formula gives us.
+
+02:15.720 --> 02:25.110
+So in our case an is equal to free because we have free elements in set A and R will be two because
+
+02:25.170 --> 02:27.900
+we are picking two numbers.
+
+02:27.900 --> 02:37.770
+Now we have all we need to compute this formula on top will be factory all all free and we will divide
+
+02:37.770 --> 02:42.990
+that by factorial of and minus R and that is 1.
+
+02:43.320 --> 02:46.920
+And then multiply by factorial of are.
+
+02:46.950 --> 02:57.980
+So factory 2 now factorial free is 6 because free time sometimes 1 is 6 factorial of one as well.
+
+02:58.170 --> 03:00.700
+And factoring of 2 is 2.
+
+03:00.780 --> 03:05.360
+So we get six divided by two and that is free.
+
+03:05.370 --> 03:10.250
+You might also see this notation and choose k.
+
+03:10.290 --> 03:16.980
+So for example in our case it would be free choose to and it is free.
+
+03:16.980 --> 03:19.100
+Let's look at another example.
+
+03:19.170 --> 03:28.080
+Imagine that you have a group of ten boys and five girls and you want to choose two girls and one boy.
+
+03:28.200 --> 03:32.890
+How many options do you have when you don't care about the order.
+
+03:33.030 --> 03:37.680
+You can once again pause the video and try to do this on your own.
+
+03:37.680 --> 03:41.420
+So let's split it into two task.
+
+03:41.460 --> 03:44.090
+First one is pick two girls.
+
+03:44.220 --> 03:47.070
+And second is big boy.
+
+03:47.340 --> 03:51.250
+So we need to pick two girls from five.
+
+03:51.390 --> 03:55.500
+So in first round we are picking from five girls.
+
+03:55.560 --> 03:59.760
+Then when we are picking second girl we have four options.
+
+03:59.790 --> 04:09.480
+So five times four gives us 20 but now we need to get the rate of all the permutations that are different
+
+04:09.570 --> 04:17.390
+only in order and we will do that by dividing that 20 by our factory.
+
+04:17.610 --> 04:20.900
+So that has to factor here and that is true.
+
+04:21.030 --> 04:22.750
+So the result will be.
+
+04:22.780 --> 04:30.400
+Then you have 10 options how to pick two girls from five when you don't care about the order.
+
+04:30.510 --> 04:35.290
+Now the second problem is to pick one boy from 10.
+
+04:35.370 --> 04:38.280
+And obviously you have 10 options right.
+
+04:38.280 --> 04:46.760
+So now since these were subproblems we multiply the results and get the final result.
+
+04:46.800 --> 04:49.040
+And that is a hundred.
+
+04:49.080 --> 04:50.930
+I hope this makes sense.
+
+04:50.940 --> 04:54.760
+So let's move on to combinations with repetition.
+
+04:54.930 --> 05:02.550
+So we have been given and objects and we want to select our objects with replacements.
+
+05:02.760 --> 05:05.900
+So imagine that and is five.
+
+05:06.060 --> 05:13.180
+So we have item one item to all the way up to 5 and then our is free.
+
+05:13.200 --> 05:23.060
+So we are picking free elements but this time when we are picking men we will put it back into the set.
+
+05:23.070 --> 05:32.930
+So if I pick free as a first element I will cross it right here and then I add it to the end.
+
+05:32.940 --> 05:35.510
+Then I can pick for example one.
+
+05:35.640 --> 05:42.330
+So I will cross in here and add it to the end and then I can pick free again.
+
+05:42.330 --> 05:48.600
+So I will cross it in here and then I will add free again and I'm done.
+
+05:48.600 --> 05:57.900
+I have my free aliments So we are actually doing 7 choose free and you already know how to compute this
+
+05:58.170 --> 06:01.280
+so it will be 35.
+
+06:01.290 --> 06:04.110
+So let me show you an example.
+
+06:04.380 --> 06:08.680
+Imagine that we have this question x y.
+
+06:08.760 --> 06:19.180
+Plus X 2 plus X free plus x 4 is equal to 16 where all the exits are positive integer values.
+
+06:19.470 --> 06:23.360
+How many solutions to this equation exists.
+
+06:23.370 --> 06:26.340
+So what we are actually solving.
+
+06:26.340 --> 06:35.730
+Imagine that we have 16 balls and we trying to get them into four boxes that is actually what we are
+
+06:35.730 --> 06:36.520
+doing.
+
+06:36.840 --> 06:46.140
+Let's say that two goes into first two on six goes into second one it goes into third one and none goes
+
+06:46.170 --> 06:47.630
+into last one.
+
+06:47.700 --> 06:53.790
+And now imagine that instead of boxes there are X variables.
+
+06:53.820 --> 06:58.880
+So first says x 1 second this x 2 and so on.
+
+06:59.130 --> 07:04.280
+And if you compute that you will see that it is actually 16.
+
+07:04.290 --> 07:14.950
+So what we are actually doing we are dividing the 16 balls into four boxes but you can also think of
+
+07:14.980 --> 07:18.020
+that as separating these balls.
+
+07:18.120 --> 07:18.780
+Right.
+
+07:18.810 --> 07:23.560
+So the previous example can look like this.
+
+07:23.570 --> 07:27.290
+So this part represents first box.
+
+07:27.290 --> 07:29.900
+This part represents second box.
+
+07:29.910 --> 07:36.010
+This represents third box and this part represents fourth box.
+
+07:36.120 --> 07:42.800
+But now we need to find all the possible positions for our free separators.
+
+07:42.800 --> 07:43.660
+Right.
+
+07:43.730 --> 07:52.280
+So what we are actually doing we are picking free positions where to put our separators and all the
+
+07:52.280 --> 07:56.460
+separators can for example be in front of all these balls.
+
+07:56.510 --> 08:03.540
+That would mean x 1 0 x 2 0 x free 0 and x 4 is 16.
+
+08:03.590 --> 08:10.280
+So we are actually kind of picking three elements from 16 plus free.
+
+08:10.350 --> 08:11.130
+Right.
+
+08:11.300 --> 08:16.880
+And we don't care about the order all the elements can be the same.
+
+08:16.880 --> 08:21.730
+So the result of this would be 18 choose free.
+
+08:22.010 --> 08:25.540
+And that should be eight hundred and sixteen.
+
+08:25.580 --> 08:33.140
+So you might notice that we use this formula and a plus or minus one to choose are.
+
+08:33.140 --> 08:41.380
+So if I get back to for example we had five items and we were choosing free.
+
+08:41.540 --> 08:48.590
+So five plus free minus 1 will be 7 and R is free.
+
+08:48.800 --> 08:51.330
+And that is exactly what we got.
+
+08:51.440 --> 08:55.590
+So yeah this thing is maybe a bit complicated.
+
+08:55.610 --> 08:59.000
+It might take some time for you to get used to it.
+
+08:59.120 --> 09:02.490
+So feel free to watch this video again.
+
+09:02.510 --> 09:04.090
+There is no shame in that.
+
+09:04.130 --> 09:06.240
+And I will see you next time.

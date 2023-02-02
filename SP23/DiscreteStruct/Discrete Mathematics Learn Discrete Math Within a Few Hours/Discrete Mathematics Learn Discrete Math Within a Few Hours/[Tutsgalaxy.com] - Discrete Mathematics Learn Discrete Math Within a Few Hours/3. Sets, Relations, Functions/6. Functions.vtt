@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.790 --> 00:09.730
+Waters function well function is something that assigns value to other values but in general function
+
+00:09.730 --> 00:21.730
+is just a relation between A and B which for every x may assigns exactly one from B and that x and y
+
+00:21.940 --> 00:27.760
+are in this relation that is kind of mathematical definition of function.
+
+00:27.880 --> 00:33.410
+But let's look at more kind of user friendly definition here.
+
+00:33.460 --> 00:42.250
+I have function neth that x and so all the natural numbers and it returns returns some are so real number
+
+00:42.730 --> 00:47.800
+and it is defined as is equal to x plus 1.
+
+00:47.800 --> 00:55.150
+So it's kind of what this function returns and x is what this function takes.
+
+00:55.150 --> 00:58.130
+So in general you get this equation.
+
+00:58.310 --> 01:01.480
+Brentham sees x is equal to Y.
+
+01:01.510 --> 01:06.240
+So for example f of free is equal to 4 y.
+
+01:06.430 --> 01:14.160
+Well you are using this equation to compute the returned value and you want to compute.
+
+01:14.440 --> 01:18.000
+And X is passed into this function.
+
+01:18.250 --> 01:25.190
+And since I call this function with 3 I will be equal to free plus 1 so 4.
+
+01:25.300 --> 01:30.190
+And if you call this function with 6 you will get 7.
+
+01:30.190 --> 01:38.280
+So notice that for every x you pass into this function returns us exactly one value.
+
+01:38.560 --> 01:48.470
+And now if you look at definition it says that for every x from I there is exactly 1 I from B.
+
+01:48.610 --> 01:51.840
+And that's exactly what is happening in here.
+
+01:52.150 --> 01:57.110
+We are passing 1 x and we are getting exactly 1.
+
+01:57.370 --> 02:00.300
+So something like this cannot happen.
+
+02:00.340 --> 02:02.220
+We can get to.
+
+02:02.380 --> 02:07.070
+As a result of one X also we can get no I.
+
+02:07.180 --> 02:09.200
+As a result of one next.
+
+02:09.280 --> 02:18.310
+So for example if I have a function g that takes a real number and returns as either a real number and
+
+02:18.370 --> 02:27.570
+it is defined as xy equals 1 divided by x that is is not a function here.
+
+02:27.590 --> 02:33.870
+You can pause the video and try to figure out why the problem is that there is not.
+
+02:33.900 --> 02:35.680
+I for every x.
+
+02:35.720 --> 02:44.690
+So for example if I call this function with two i get 1 1/2 and that is OK if I call it with minus two
+
+02:45.230 --> 02:46.130
+and minus.
+
+02:46.220 --> 02:48.170
+And that is also fine.
+
+02:48.350 --> 02:53.810
+But when I call this function with zero I get nothing.
+
+02:53.810 --> 02:54.530
+Why.
+
+02:54.800 --> 02:57.900
+Because you cannot divide by zero.
+
+02:58.070 --> 03:05.850
+And if we look at the definition it says that for every x there must be exactly 1.
+
+03:06.050 --> 03:10.900
+And here is not so this is not a function.
+
+03:10.910 --> 03:16.320
+Now let's make even more user friendly definition here.
+
+03:16.340 --> 03:18.590
+I will define sets like this.
+
+03:18.590 --> 03:21.070
+So this is set A.
+
+03:21.200 --> 03:23.000
+And this is said B.
+
+03:23.210 --> 03:33.530
+And in set A We have some elements let's say 1 2 3 4 and 5 and instead B we have other elements like
+
+03:33.530 --> 03:34.950
+a b c d.
+
+03:35.120 --> 03:43.520
+So now if we have a function from A to B This function will kind of assign to every element from May
+
+03:43.850 --> 03:45.910
+some other element in B.
+
+03:45.920 --> 03:46.710
+Right.
+
+03:46.760 --> 03:50.710
+So for example it can assign to a 1.
+
+03:50.920 --> 03:58.580
+But the important thing is that this function needs to assign some value to every element for math.
+
+03:58.760 --> 04:01.580
+So for example like this.
+
+04:01.580 --> 04:10.110
+Notice that there is exactly one arrow from every element from set A to some element from said B.
+
+04:10.340 --> 04:12.380
+So that is correct.
+
+04:12.770 --> 04:22.820
+But if I have two arrows from some element in NE to some other element and B it is not a function because
+
+04:22.970 --> 04:26.980
+B is are I and in a is R x.
+
+04:27.090 --> 04:36.190
+So for one next we get two possible eyes and that can happen.
+
+04:36.200 --> 04:38.760
+So this is not a function.
+
+04:38.930 --> 04:43.650
+And also every element has to point to some element in B.
+
+04:43.670 --> 04:53.440
+So if I get rid of this arrow f is not a function because it doesn't return nigh for every x.
+
+04:53.540 --> 04:55.720
+I think this is pretty clear.
+
+04:55.730 --> 05:02.840
+So let's look at some properties function can be injective and what that means.
+
+05:03.020 --> 05:08.140
+Well there is no two arrows pointing to some element in B.
+
+05:08.240 --> 05:11.110
+There is always one zero or none.
+
+05:11.330 --> 05:21.320
+So for example function that is defined as xy is equal to x squared is not injective.
+
+05:21.320 --> 05:22.400
+Why.
+
+05:22.400 --> 05:29.180
+Because for example free and minus free will both result in 2 9.
+
+05:29.420 --> 05:33.750
+So they are kind of two pointers pointing to night.
+
+05:33.980 --> 05:40.550
+But for example function is equal to x plus two is injective.
+
+05:40.550 --> 05:41.530
+Why.
+
+05:41.630 --> 05:47.840
+Because there are no two access that will result into say my.
+
+05:47.900 --> 05:56.750
+So if I write this definition kind of mathematically function a to b is injective went for every x 1
+
+05:56.780 --> 05:58.980
+and x 2 from a.
+
+05:59.390 --> 06:06.390
+So if x 1 is not equal to x to the return value is also not equal.
+
+06:06.500 --> 06:11.600
+So f of x 1 is not equal to 4 x 2.
+
+06:11.600 --> 06:18.100
+I hope this makes sense that a property is surjection and all that means well.
+
+06:18.110 --> 06:21.830
+Function from A to B is surgical.
+
+06:22.040 --> 06:25.780
+If there is no to every element in B.
+
+06:25.850 --> 06:31.930
+So for every i from B existe X from a.
+
+06:32.180 --> 06:38.560
+That and it is true that f of this X will result in two.
+
+06:38.960 --> 06:50.960
+So for example the function from A to B where A contains 1 2 and B and B contains A and B is surjective
+
+06:51.430 --> 07:00.180
+y well to every element in B leads and narrow and it is OK that to B leads to arrows.
+
+07:00.200 --> 07:07.690
+The important thing is that there is at least one arrow to every element in the bad.
+
+07:07.700 --> 07:13.050
+If for example a one would be in the relation with B instead of a.
+
+07:13.400 --> 07:20.180
+This function would not be surjective because there is no arrow that leads us to a.
+
+07:20.510 --> 07:23.290
+I think this makes sense also.
+
+07:23.290 --> 07:32.400
+Function can be bijective and what that means well if function is bijective it is injective and surjective.
+
+07:32.460 --> 07:34.720
+So this is pretty easy.
+
+07:34.920 --> 07:40.360
+I hope this makes sense if you have any questions just ask and I will see you next time.

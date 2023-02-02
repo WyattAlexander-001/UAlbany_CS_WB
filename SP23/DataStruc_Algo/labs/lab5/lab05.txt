@@ -1,0 +1,83 @@
+ICSI / IECE 213. Data Structures -- Lab 5
+
+Goals
+-----
+- understand bubble sort, selection sort, and insertion sort algorithms.
+- implement bubble sort in Java.
+- implement selection sort in Java.
+- implement quick sort in Java.
+
+
+PLEASE compress the project containing your code into a zip file (in the form of [your first name]_[your last name].zip) and then submit that file on Blackboard (see PART 3 below).
+
+
+PART 1: Importing lab05.zip into Eclipse
+----------------------------------------
+1. In the "Package", "Project Explorer", or "Navigator" window, choose a project (e.g., "csi213").
+
+2. In the menu bar, choose "File", "Import", "General", and then "Archive File". Next, press the "Next" button.
+
+3. Click the "Browse..." button and then choose the "lab05.zip" file and press the "Open" button.
+
+4. In the "Import" dialog box, press the "Finish" button.
+
+5. Expand the project, the "src" folder, and then the "csi213.lab05" package. If you cannot see this "csi213.lab05" package in the "src" folder, then it means that, for some reason, the java code is imported into a different directory and Eclipse may not compile the needed Java code automatically. In this case, (i) right-click the "src" folder, (ii) choose "New" and then "Package", (iii) create a package named "csi213.lab05" and then (iv) move the imported java files including "UnitTests.java" to the "csi213.lab05" package.
+
+6. In the "csi213.lab05" package, double-click the "UnitTests.java" file.
+
+7. If there are many compile errors in "UnitTests.java", then it means that the Java project is not configured to run JUnit tests. In this case, (i) right-click the Java project, (ii) choose "Properties" and then "Java Build Path", (iii) choose the "Libraries" tab, (iv) in "Jars and class folders on the build path:", choose "Classpath" and then the "Add Library..." button, (v) in the "Add Library" dialog box, choose "JUnit" and then "JUnit5" or "Junit4", and finally (vi) press the "Finish" button and the "Apply and Close" button.
+
+If the Java project is not configured to run JUnit tests, another possible solution is to (i) right-click the error icon one line 3 ("import static org.junit.Assert.*;") in UnitTests.java, (ii) in the popup, choose "Fix project setup...", (iii) in the "Project Setup Fixes" dialog box, choose "Add Unit 4 library to the build path", and (iv) press the "OK" button.
+
+8. You can run the unit tests in "UnitTests.java" by pressing the "Run" button which contains a green circle and a white triangle. These unit tests will fail until you complete the programming tasks explained below.
+
+
+PART 2: Completing FloatArrays.java
+---------------------------------
+Task 1 (30 points). Complete the "bubbleSort(float[] a)" method so that it sorts the specified array "a" using the bubble sort algorithm.
+
+First, for a certain time limit that you choose (e.g., 15 minutes), try to implement the "bubbleSort(int[] a)" method based only on your understanding of the algorithm.
+Please understand that, during each pass, bubble sort examines certain pairs of adjacent elements and swaps two such adjacent elements if they are not in order.
+Once you finish (or after the time limit), compare your implementation with the Java code in the slides.
+It is fine to use the code (but some slight changes will be needed).
+
+Your code also needs to pass the unit test named "test1()" in "UnitTests.java".
+
+
+Task 2 (30 points). Complete the "selectionSort(float[] a)" method so that it sorts the specified array "a" using the selection sort algorithm.
+
+For a certain time limit that you choose (e.g., 15 minutes), try to implement the "selectionSort(float[] a)" method based only on your understanding of the algorithm.
+Please understand that, during each pass, selection sort finds the largest element within a certain portion in "a" and then swaps that element with the last element within that portion in "a".
+Once you finish (or after the time limit), compare your implementation with the Java code in the slides.
+You can use the code from the slides (but some slight changes may be needed).
+
+Your code also needs to pass the unit test named "test2()" in "UnitTests.java".
+
+
+Task 3 (40 points). Complete the "quickSort(float[] a)" method so that it sorts the specified array "a" using the quicksort algorithm.
+
+For a certain time limit that you choose (e.g., 15 minutes), try to implement the method based only on your understanding of the algorithm.
+
+
+You can use the code from the slides (but some slight changes may be needed).
+
+Your code also needs to pass the unit test named "test3()" in "UnitTests.java".
+
+
+PART 3: Submitting Your Work
+----------------------------
+1. In Eclipse, choose the "src" source folder and then right-click the "csi213.lab05" package.
+
+2. In the popup menu, choose "Export..."
+
+3. In the "Export" dialog box, choose "General" and "Archive File".
+
+4. Make sure all the files in the "csi213.lab05" package are selected. 
+
+5. In the "To archive file" text box, type the name of the zip file (in the form of [your first name]_[your last name].zip). Please remember the folder where the zip file will be saved.
+
+6. Press the "Finish" button.
+
+7. Before uploading the zip file, please check its content by uncompressing it. In particular, it must contain a folder named "src". This "src" folder must contain a folder named "csi213". This "csi213" folder must contain a folder named "lab05".
+
+8. On Blackboard, please upload the zip file mentioned above. Also, download that zip file from Blackboard and make sure all the needed files are correctly included in that zip file.

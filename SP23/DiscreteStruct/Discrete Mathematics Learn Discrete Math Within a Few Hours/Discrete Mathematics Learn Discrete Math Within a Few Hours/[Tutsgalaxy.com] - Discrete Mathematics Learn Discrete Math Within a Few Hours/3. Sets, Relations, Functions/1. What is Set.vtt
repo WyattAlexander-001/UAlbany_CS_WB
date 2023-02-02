@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.730 --> 00:10.740
+Ortez said said it's a collection of some data you can think about it as a box containing some object.
+
+00:10.750 --> 00:24.040
+So for example if I have box that contains numbers 8 4 6 and 0 in mathematic the boxes said and 8 4
+
+00:24.160 --> 00:28.160
+6 and 0 are elements of this set.
+
+00:28.450 --> 00:31.110
+And we usually use this notation.
+
+00:31.210 --> 00:41.650
+So we use braces these braces define set and inside these braces we write our elements and we separate
+
+00:41.650 --> 00:47.850
+them with comma and we can also call every set by its name.
+
+00:47.860 --> 00:50.560
+So for example does this set A.
+
+00:50.620 --> 00:55.850
+And it contains 8 4 6 and 0.
+
+00:55.920 --> 01:00.720
+Another thing I need to mention is that sets are unordered.
+
+01:00.820 --> 01:02.070
+What that means.
+
+01:02.410 --> 01:09.550
+Well if you take a box and fill it with numbers it doesn't matter what number is most right.
+
+01:09.550 --> 01:14.320
+All we care about is if the number is in the box.
+
+01:14.320 --> 01:27.640
+So for example if I create set B that contains 0 8 4 and 6 it is the same as set a Y because every element
+
+01:27.640 --> 01:35.780
+that has been set B is also in set A and every element that is inside a is also in B.
+
+01:35.830 --> 01:40.320
+So it doesn't matter in what order the elements are.
+
+01:40.360 --> 01:45.130
+All we care about is whether the elements are in set.
+
+01:45.340 --> 01:50.390
+Another important thing is that we don't have repeating elements.
+
+01:50.590 --> 02:02.830
+So for example if I define set C that contains 8 4 6 0 and 8 it is still equal to set a y.
+
+02:02.860 --> 02:11.200
+Once again we care only about whether the element is in set and we don't care how many times it isn't
+
+02:11.200 --> 02:12.160
+said.
+
+02:12.550 --> 02:13.240
+OK.
+
+02:13.370 --> 02:22.990
+Now let's talk about the ways to define set we can do it simply by writing out all the elements inside
+
+02:22.990 --> 02:24.150
+braces.
+
+02:24.160 --> 02:28.510
+But sometimes we have an infinite set.
+
+02:28.510 --> 02:33.960
+And obviously you can't just write all the elements inside braces.
+
+02:34.150 --> 02:40.480
+So we define these sets using their characteristic property.
+
+02:40.600 --> 02:48.760
+And what do I mean by that we can say that this set will contain all the prime numbers.
+
+02:48.760 --> 02:57.160
+For those of you who don't know what prime number is it is just number that we can divide only by 1
+
+02:57.460 --> 02:58.750
+and itself.
+
+02:58.870 --> 03:03.660
+In this case you can use natural language to describe this.
+
+03:03.670 --> 03:05.270
+You can write it like this.
+
+03:05.290 --> 03:13.260
+So braces and inside X from an where and represents that of natural numbers.
+
+03:13.420 --> 03:24.460
+So numbers like 1 2 free and so on to infinity for example two point five zero or minus five is not
+
+03:24.460 --> 03:26.000
+in the set.
+
+03:26.020 --> 03:33.150
+There are only positive integers and then there is this kind of separator.
+
+03:33.250 --> 03:38.700
+And here we define what this X should look like.
+
+03:38.890 --> 03:42.260
+If we use natural language we can just write.
+
+03:42.370 --> 03:45.710
+X is prime number and we are done.
+
+03:45.730 --> 03:50.350
+But sometimes natural language can be misleading.
+
+03:50.410 --> 03:57.570
+So some mathematical description is often used for example like this.
+
+03:57.730 --> 04:08.770
+So this set is containing every x that is from natural numbers and also is true that for every I that
+
+04:08.770 --> 04:20.640
+is from natural numbers if X modulo Y is equal to zero then I's equal one or equal to x.
+
+04:20.710 --> 04:24.880
+So that is how mathematic definition could look like.
+
+04:24.880 --> 04:36.490
+So something's up said is a collection of data objects inside of a set are called elements to define
+
+04:36.490 --> 04:45.580
+said we as racists and inside them we write all the elements or we write characteristic property.
+
+04:45.700 --> 04:53.790
+Also it doesn't matter what order the elements are and how many times they are in set.
+
+04:54.100 --> 05:02.470
+Also set can contain numbers but it can also contain string or anything else.
+
+05:02.720 --> 05:05.230
+So that is all there is to it.
+
+05:05.300 --> 05:09.690
+If you have any questions just ask and I will see you next time.

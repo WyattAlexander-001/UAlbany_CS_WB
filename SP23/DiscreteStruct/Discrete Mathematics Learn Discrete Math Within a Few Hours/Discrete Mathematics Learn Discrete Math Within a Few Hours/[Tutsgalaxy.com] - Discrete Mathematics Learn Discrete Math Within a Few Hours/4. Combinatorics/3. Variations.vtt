@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.560 --> 00:04.460
+Variation also means gay permutation Nover N..
+
+00:04.640 --> 00:06.390
+And what that means.
+
+00:06.410 --> 00:15.990
+Well imagine that you are a teacher and you are taking four students for exam and all class for teachers
+
+00:16.030 --> 00:24.920
+students and also for some reason you care in what order your students go.
+
+00:24.920 --> 00:32.560
+So for example Adam Bob David and Mike is not the same as Bob.
+
+00:32.660 --> 00:43.060
+Adam David and Mike these are two different lineups than K is equal to four and is 42.
+
+00:43.310 --> 00:49.380
+And number of option is defined as a k permutation over.
+
+00:49.400 --> 00:56.570
+So before I show you the formula that is used to compute this I want to show you how you can figure
+
+00:56.570 --> 00:57.510
+it out.
+
+00:57.530 --> 01:02.770
+So when you are picking first students you have 42 option.
+
+01:02.930 --> 01:11.570
+So let's right 42 than you need to pick another one and you have 41 options then another one and you
+
+01:11.570 --> 01:15.560
+have 40 options and then you have thirty nine options.
+
+01:15.830 --> 01:19.400
+But then you stop because you have your four students.
+
+01:19.460 --> 01:20.450
+Right.
+
+01:20.510 --> 01:27.820
+So the result is 42 size 41 times 40 times 39.
+
+01:28.070 --> 01:30.310
+And I hope this kind of makes sense.
+
+01:30.320 --> 01:40.400
+So let me show you the formula for this variation of K overon is actually and times and mine is one
+
+01:40.580 --> 01:46.050
+times all the way up to and minus k plus 1.
+
+01:46.220 --> 01:52.750
+And if you think about it that is exactly what I wrote here and it's 42.
+
+01:52.850 --> 01:59.840
+And we want to get down to 39 and 39 is and minus gay plus 1.
+
+02:00.170 --> 02:01.730
+So it actually works.
+
+02:01.940 --> 02:06.990
+I think this should not be a problem for you when you understand permutation.
+
+02:07.190 --> 02:12.980
+So let's move on to variation with repetition and what that means.
+
+02:13.160 --> 02:19.130
+Well it is variation but you can pick same item multiple times.
+
+02:19.130 --> 02:21.980
+So let's take a look at example.
+
+02:22.310 --> 02:32.020
+Imagine that you have an logical statements how many possible ratings can these statements have.
+
+02:32.060 --> 02:38.640
+You should know that already but I will say that anyway every expression can be true or false.
+
+02:38.750 --> 02:47.580
+So we have two options for every expression and there can be more than one expression that is true.
+
+02:47.960 --> 02:50.130
+And same goes with balls.
+
+02:50.330 --> 02:56.620
+So let's say that we have one statement we get two possible outcomes.
+
+02:56.630 --> 02:58.970
+It can be either true or false.
+
+02:59.150 --> 03:07.330
+That should make sense but when we have another statement we multiply it by two.
+
+03:07.370 --> 03:08.060
+Why.
+
+03:08.300 --> 03:12.760
+Well as mentioned before it could be true or false.
+
+03:12.770 --> 03:19.570
+So we kind of grab all the possibilities before and we get to the end zero.
+
+03:19.820 --> 03:21.570
+And then we get to the end.
+
+03:21.670 --> 03:26.260
+One it might sound confusing so let me show you.
+
+03:26.260 --> 03:38.000
+Example if I add the second expression the values that get the statement that are 0 0 0 1 1 0 and 1
+
+03:38.120 --> 03:38.760
+1.
+
+03:39.020 --> 03:46.800
+So in this example I took all the possible outcomes of first statement that is 1 and 0.
+
+03:46.970 --> 03:50.710
+And then I added it in front of those zero.
+
+03:50.750 --> 03:53.480
+That way I got these two statements.
+
+03:53.630 --> 03:57.000
+And then I added in front of these two one.
+
+03:57.020 --> 04:02.150
+So I got these two additional ratings and all of that is the result.
+
+04:02.330 --> 04:08.470
+All of these are possible ratings for two statements with free statements.
+
+04:08.480 --> 04:10.410
+There should be a Dobsons.
+
+04:10.590 --> 04:13.190
+But back to our example.
+
+04:13.220 --> 04:20.820
+So with each statements we are multiplying current result by 2 right.
+
+04:20.870 --> 04:26.630
+So the obvious result is two to the power of Anna.
+
+04:26.700 --> 04:27.340
+Right.
+
+04:27.650 --> 04:35.670
+The thing that can confuse you is that this time our An example was actually K in the formula.
+
+04:35.690 --> 04:39.050
+These are variations with repeating.
+
+04:39.050 --> 04:43.570
+If you have any questions feel free to ask and I will see you next time.

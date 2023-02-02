@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.510 --> 00:11.290
+In this grade math function composition is the pointwise application of function to the result of another
+
+00:11.290 --> 00:11.830
+one.
+
+00:11.860 --> 00:23.680
+For instance if I have function f that takes value from set x and returns a value from I and I also
+
+00:23.680 --> 00:30.460
+have a function g that takes value from I and returns value from Z.
+
+00:30.760 --> 00:38.410
+And now I can do composition of these two and it looks like this.
+
+00:38.410 --> 00:40.920
+So first we have g.
+
+00:41.080 --> 00:49.600
+Then there is the circle and then a function f and this G circle f basically means this.
+
+00:49.630 --> 00:56.140
+So f grab some X and returns us some.
+
+00:56.680 --> 01:04.960
+And then function g tags D I that f returned and turns it into z.
+
+01:05.020 --> 01:11.010
+So this position is basically a function from x to z.
+
+01:11.050 --> 01:11.630
+Right.
+
+01:12.620 --> 01:23.770
+Think of it this way you graph some x and you first base it into f eth does some computing and pass
+
+01:23.790 --> 01:25.340
+is the result.
+
+01:25.350 --> 01:31.770
+A.G. And finally G returns as the final result.
+
+01:31.850 --> 01:34.400
+Bob it is not so easy.
+
+01:34.440 --> 01:36.120
+There can be a problem.
+
+01:36.300 --> 01:41.950
+We must accept everything that returns.
+
+01:41.970 --> 01:51.300
+So in this case it works because APH returns some element from set by and we take some element from
+
+01:51.310 --> 01:52.250
+set.
+
+01:52.560 --> 01:56.320
+But you need to keep this in mind.
+
+01:56.430 --> 01:59.950
+So let's take a look at some examples.
+
+02:00.090 --> 02:10.020
+So I have here a function f that takes some natural number and returns a natural number and it is defined
+
+02:10.320 --> 02:15.000
+as is equal to x times 2.
+
+02:15.240 --> 02:24.960
+And then I have a function g that takes some natural number and address turns some integer number and
+
+02:25.080 --> 02:27.100
+it is the find as I.
+
+02:27.330 --> 02:30.020
+Is equal to x minus 2.
+
+02:30.240 --> 02:35.970
+So let's see how composition of these two looks like.
+
+02:36.000 --> 02:46.590
+So for example when I call this with free I will pass free to f f will return free times to.
+
+02:46.740 --> 02:49.760
+Because I is X times 2.
+
+02:49.950 --> 02:57.250
+So that is 6 and then I pass the 6 into G and what G does.
+
+02:57.450 --> 03:02.820
+Well it just subtract 2 from the value that you have passed.
+
+03:03.090 --> 03:06.730
+So the final result will be 4.
+
+03:07.140 --> 03:10.700
+Let's try it again with 5.
+
+03:10.750 --> 03:15.840
+I pass 5 into f f will return.
+
+03:16.060 --> 03:19.510
+Then g is whatever f returned.
+
+03:19.560 --> 03:27.390
+In this case it is then subtract 2 from it and return the final result.
+
+03:27.390 --> 03:29.100
+In this case a.
+
+03:29.490 --> 03:30.860
+I hope this makes sense.
+
+03:31.020 --> 03:34.720
+Let's take a look at another example in here.
+
+03:34.770 --> 03:44.370
+I get asked that takes some natural number and returns us some rational number and it is defined as
+
+03:45.050 --> 03:55.470
+is equal to 2 divided by x then I have function g that takes some natural number and returns as other
+
+03:55.620 --> 04:07.320
+natural number and it is defined as is equal to 2 times X minus 1 and I want to do composition of these
+
+04:07.320 --> 04:08.180
+two.
+
+04:08.190 --> 04:10.690
+So let's try the same thing.
+
+04:10.920 --> 04:14.760
+Let's go this composition with one.
+
+04:14.940 --> 04:25.010
+So I grab one pass it into f f returns us two divided by 1 and that is just two right.
+
+04:25.260 --> 04:37.210
+So g grabs this number and returns us two times to minus 1 and that is free and that is the final result.
+
+04:37.350 --> 04:43.560
+But maybe try this with free we pass free into f.
+
+04:43.650 --> 04:45.890
+Returns us two thirds.
+
+04:45.980 --> 04:48.840
+Bob here comes the problem.
+
+04:48.840 --> 04:58.320
+G accepts only natural numbers and as you should already know two thirds is not a natural number.
+
+04:58.410 --> 04:59.910
+It is rational number.
+
+05:00.030 --> 05:11.220
+So that is why you cannot compose these two functions because G cannot handle two thirds as a input.
+
+05:11.220 --> 05:14.580
+I hope this makes sense and I think it does so.
+
+05:14.700 --> 05:17.250
+That is pretty much it for this lecture.
+
+05:17.250 --> 05:21.720
+If you have any questions feel free to ask and I will see you next time.
